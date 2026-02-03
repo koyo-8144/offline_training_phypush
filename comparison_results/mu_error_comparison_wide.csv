@@ -1,10 +1,10 @@
-domain,Baseline (Data Only),Hybrid PINN ANN cond1 (PINN 4),Hybrid PINN ANN cond2 (PINN 4)
-m_seen_mu_seen,2.6633333333333336,3.06,2.94
-m_over,12.57,13.26,14.36
-m_under,15.293333333333331,15.06,14.11
-mu_over,14.410000000000002,13.31,13.28
-mu_under,12.5,11.91,13.21
-m_over_mu_over,9.893333333333333,7.94,20.96
-m_under_mu_under,18.69,18.31,20.25
-m_over_mu_under,17.663333333333334,18.44,21.11
-m_under_mu_over,42.306666666666665,43.12,41.02
+domain,Baseline cond3 (Data Only),Hybrid PINN ANN cond3 (PINN 4)
+m_seen_mu_seen,2.9,3.02
+m_over,13.86,14.13
+m_under,14.46,14.78
+mu_over,12.91,12.92
+mu_under,13.32,13.6
+m_over_mu_over,25.84,26.62
+m_under_mu_under,20.54,20.18
+m_over_mu_under,21.39,22.01
+m_under_mu_over,42.05,42.81
