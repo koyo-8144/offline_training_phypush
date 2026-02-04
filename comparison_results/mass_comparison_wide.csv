@@ -1,7 +1,7 @@
-domain,Baseline transver1 (Data Only),"Baseline transver1 m, mu focus (Data Only)"
-m_seen_mu_seen,1.96,2.07
-m_over,12.07,12.63
-mu_over,1.72,2.2
-mu_under,3.92,3.66
-m_over_mu_over,15.48,12.33
-m_over_mu_under,13.33,13.87
+domain,Baseline transver1 (Data Only),Baseline transver2 (Data Only),Baseline transver2.5 (Data Only)
+m_seen_mu_seen,1.96,1.61,1.96
+m_over,12.07,13.13,12.07
+mu_over,1.72,2.02,1.72
+mu_under,3.92,2.94,3.92
+m_over_mu_over,15.48,19.1,15.48
+m_over_mu_under,13.33,11.57,13.33
