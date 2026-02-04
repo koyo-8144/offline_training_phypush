@@ -1,10 +1,7 @@
 domain,Baseline cond2 (Data Only),PINN 3 (m and mu separately),PINN 4 (m and mu separately+together),Hybrid (PINN 3),Hybrid (PINN 4),Hybrid ANN (PINN 3),Hybrid ANN (PINN 4)
-m_seen_mu_seen,2.85,5.2,4.33,4.61,3.22,2.93,2.94
-m_over,13.79,23.49,22.28,22.29,27.2,14.13,14.36
-m_under,14.45,12.42,12.52,12.76,13.05,14.51,14.11
-mu_over,12.91,13.14,12.69,14.76,12.16,13.21,13.28
-mu_under,13.33,16.34,15.41,13.54,11.87,13.25,13.21
-m_over_mu_over,25.51,5.62,8.84,13.04,20.58,25.63,20.96
-m_under_mu_under,20.61,28.65,32.49,17.91,24.12,20.01,20.25
-m_over_mu_under,21.31,42.84,34.16,31.78,23.99,21.14,21.11
-m_under_mu_over,42.01,37.21,37.81,35.0,39.92,41.42,41.02
+m_seen_mu_seen,2.85,5.2,4.33,,,,
+m_over,10.31,19.54,17.77,,,,
+mu_over,12.91,13.14,12.69,,,,
+mu_under,13.33,16.34,15.41,,,,
+m_over_mu_over,17.93,6.25,5.69,,,,
+m_over_mu_under,16.17,37.61,30.54,,,,
