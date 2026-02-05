@@ -3,20 +3,20 @@
     \caption{Mass Estimation Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l ccc}
+    \begin{tabular}{l cccccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} \\
-         & (Data Only) &  &  \\
+        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 5 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 6 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 7 Trans4 mmaxseen1.0 mminseen0.3} \\
+         & (Data Only) &  &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & \textbf{0.57} & 0.96 & 0.86 \\
-        m\_over & 16.77 & 15.95 & \textbf{15.15} \\
-        m\_under & 3.72 & 3.81 & \textbf{3.12} \\
-        mu\_over & 2.15 & 3.11 & \textbf{1.78} \\
-        mu\_under & 1.41 & \textbf{0.68} & 2.32 \\
-        m\_over\_mu\_over & 19.28 & \textbf{15.21} & 16.99 \\
-        m\_under\_mu\_under & 3.80 & 3.79 & \textbf{3.07} \\
-        m\_over\_mu\_under & 17.55 & 16.86 & \textbf{15.17} \\
-        m\_under\_mu\_over & 3.80 & 3.83 & \textbf{3.28} \\
+        m\_seen\_mu\_seen & \textbf{0.57} & 0.96 & 0.86 & 0.76 & 0.73 & \textbf{0.57} \\
+        m\_over & 16.77 & 15.95 & \textbf{15.15} & 17.61 & 15.83 & 17.33 \\
+        m\_under & 3.72 & 3.81 & 3.12 & \textbf{3.09} & 3.87 & 5.57 \\
+        mu\_over & 2.15 & 3.11 & 1.78 & \textbf{1.22} & 1.88 & 1.63 \\
+        mu\_under & 1.41 & \textbf{0.68} & 2.32 & 1.88 & 1.88 & 1.57 \\
+        m\_over\_mu\_over & 19.28 & \textbf{15.21} & 16.99 & 19.29 & 17.12 & 18.45 \\
+        m\_under\_mu\_under & 3.80 & 3.79 & 3.07 & \textbf{2.88} & 3.95 & 6.02 \\
+        m\_over\_mu\_under & 17.55 & 16.86 & \textbf{15.17} & 17.92 & 15.91 & 17.04 \\
+        m\_under\_mu\_over & 3.80 & 3.83 & 3.28 & \textbf{3.23} & 3.83 & 5.17 \\
         \bottomrule
     \end{tabular}
     }

@@ -1,10 +1,10 @@
-domain,Baseline transver4 mmaxseen1.0 mminseen0.3 (Data Only),PINN 3 Trans4 mmaxseen1.0 mminseen0.3,PINN 4 Trans4 mmaxseen1.0 mminseen0.3
-m_seen_mu_seen,0.57,0.96,0.86
-m_over,16.77,15.95,15.15
-m_under,3.72,3.81,3.12
-mu_over,2.15,3.11,1.78
-mu_under,1.41,0.68,2.32
-m_over_mu_over,19.28,15.21,16.99
-m_under_mu_under,3.8,3.79,3.07
-m_over_mu_under,17.55,16.86,15.17
-m_under_mu_over,3.8,3.83,3.28
+domain,Baseline transver4 mmaxseen1.0 mminseen0.3 (Data Only),PINN 3 Trans4 mmaxseen1.0 mminseen0.3,PINN 4 Trans4 mmaxseen1.0 mminseen0.3,PINN 5 Trans4 mmaxseen1.0 mminseen0.3,PINN 6 Trans4 mmaxseen1.0 mminseen0.3,PINN 7 Trans4 mmaxseen1.0 mminseen0.3
+m_seen_mu_seen,0.57,0.96,0.86,0.76,0.73,0.57
+m_over,16.77,15.95,15.15,17.61,15.83,17.33
+m_under,3.72,3.81,3.12,3.09,3.87,5.57
+mu_over,2.15,3.11,1.78,1.22,1.88,1.63
+mu_under,1.41,0.68,2.32,1.88,1.88,1.57
+m_over_mu_over,19.28,15.21,16.99,19.29,17.12,18.45
+m_under_mu_under,3.8,3.79,3.07,2.88,3.95,6.02
+m_over_mu_under,17.55,16.86,15.17,17.92,15.91,17.04
+m_under_mu_over,3.8,3.83,3.28,3.23,3.83,5.17
