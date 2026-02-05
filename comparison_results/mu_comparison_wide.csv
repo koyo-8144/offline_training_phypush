@@ -1,7 +1,7 @@
-domain,Baseline transver4 mmaxseen 1.0 (Data Only),"Baseline transver4 mmaxseen 1.0 m, mu focus (Data Only)",PINN 3 Trans4 mmaxseen1.0,PINN 4 Trans4 mmaxseen1.0,Hybrid Trans4 mmaxseen1.0 (PINN 2 + DATA force),Hybrid Trans4 mmaxseen1.0 (PINN 2 + DATA force small)
-m_seen_mu_seen,3.38,3.26,4.92,4.25,4.88,4.24
-m_over,16.71,11.05,18.32,16.09,18.56,19.92
-mu_over,14.19,15.81,18.05,15.72,17.06,15.02
-mu_under,12.93,11.36,19.09,14.39,16.97,10.34
-m_over_mu_over,9.78,12.28,14.78,11.09,15.25,9.8
-m_over_mu_under,29.83,17.16,36.73,32.03,41.49,39.43
+domain,Baseline transver4 mmaxseen 1.0 (Data Only),"Baseline transver4 mmaxseen 1.0 m, mu focus (Data Only)",PINN 6 Trans4 mmaxseen1.0,Hybrid Trans4 mmaxseen1.0 (PINN 6 res + DATA main)
+m_seen_mu_seen,3.38,3.26,2.43,2.64
+m_over,16.71,11.05,17.31,14.16
+mu_over,14.19,15.81,13.69,14.29
+mu_under,12.93,11.36,9.88,13.16
+m_over_mu_over,9.78,12.28,4.95,12.89
+m_over_mu_under,29.83,17.16,20.77,19.88

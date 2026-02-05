@@ -3,17 +3,17 @@
     \caption{Friction Force Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccc}
+    \begin{tabular}{l cccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen 1.0} & \textbf{Baseline transver4 mmaxseen 1.0 m, mu focus} & \textbf{PINN 3 Trans4 mmaxseen1.0} & \textbf{PINN 4 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} \\
-         & (Data Only) & (Data Only) &  &  & (PINN 2 + DATA force) & (PINN 2 + DATA force small) \\
+        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen 1.0} & \textbf{Baseline transver4 mmaxseen 1.0 m, mu focus} & \textbf{PINN 6 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} \\
+         & (Data Only) & (Data Only) &  & (PINN 6 res + DATA main) \\
         \midrule
-        m\_seen\_mu\_seen & 0.35 & \textbf{0.33} & 0.97 & 1.03 & 0.36 & 0.37 \\
-        m\_over & 4.44 & 4.57 & 4.45 & 5.19 & \textbf{3.92} & 4.20 \\
-        mu\_over & 0.81 & 0.95 & 1.62 & 1.59 & \textbf{0.77} & 0.82 \\
-        mu\_under & 1.09 & \textbf{0.92} & 1.44 & 0.96 & 0.95 & 0.98 \\
-        m\_over\_mu\_over & 13.78 & 14.17 & 13.41 & 14.72 & \textbf{13.24} & 13.53 \\
-        m\_over\_mu\_under & 1.75 & \textbf{1.24} & 2.48 & 2.79 & 2.44 & 3.20 \\
+        m\_seen\_mu\_seen & 0.35 & 0.33 & 1.10 & \textbf{0.32} \\
+        m\_over & \textbf{4.44} & 4.57 & 4.84 & 4.45 \\
+        mu\_over & \textbf{0.81} & 0.95 & 1.84 & 1.01 \\
+        mu\_under & 1.09 & \textbf{0.92} & 1.14 & 1.00 \\
+        m\_over\_mu\_over & \textbf{13.78} & 14.17 & 13.81 & 14.41 \\
+        m\_over\_mu\_under & 1.75 & 1.24 & 2.85 & \textbf{1.05} \\
         \bottomrule
     \end{tabular}
     }

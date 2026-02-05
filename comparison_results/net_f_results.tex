@@ -3,17 +3,17 @@
     \caption{Net Force Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccc}
+    \begin{tabular}{l cccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen 1.0} & \textbf{Baseline transver4 mmaxseen 1.0 m, mu focus} & \textbf{PINN 3 Trans4 mmaxseen1.0} & \textbf{PINN 4 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} \\
-         & (Data Only) & (Data Only) &  &  & (PINN 2 + DATA force) & (PINN 2 + DATA force small) \\
+        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen 1.0} & \textbf{Baseline transver4 mmaxseen 1.0 m, mu focus} & \textbf{PINN 6 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} \\
+         & (Data Only) & (Data Only) &  & (PINN 6 res + DATA main) \\
         \midrule
-        m\_seen\_mu\_seen & 0.60 & 0.60 & \textbf{0.51} & 0.53 & 0.61 & 0.60 \\
-        m\_over & 1.32 & 1.50 & \textbf{1.05} & 1.17 & 1.24 & 1.28 \\
-        mu\_over & 0.87 & 0.86 & 0.78 & \textbf{0.76} & 0.91 & 0.89 \\
-        mu\_under & 0.53 & 0.53 & \textbf{0.46} & 0.53 & 0.50 & 0.49 \\
-        m\_over\_mu\_over & 1.37 & 1.87 & \textbf{1.10} & 1.29 & 1.34 & 1.53 \\
-        m\_over\_mu\_under & 1.32 & 1.20 & 1.33 & 1.54 & \textbf{1.17} & 1.30 \\
+        m\_seen\_mu\_seen & 0.60 & 0.60 & 0.58 & \textbf{0.56} \\
+        m\_over & 1.32 & 1.50 & \textbf{1.22} & 1.33 \\
+        mu\_over & 0.87 & 0.86 & \textbf{0.77} & 0.85 \\
+        mu\_under & 0.53 & 0.53 & 0.58 & \textbf{0.52} \\
+        m\_over\_mu\_over & \textbf{1.37} & 1.87 & 1.43 & 1.84 \\
+        m\_over\_mu\_under & 1.32 & 1.20 & 1.36 & \textbf{1.19} \\
         \bottomrule
     \end{tabular}
     }
