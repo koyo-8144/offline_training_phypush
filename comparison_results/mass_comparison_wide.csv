@@ -1,7 +1,7 @@
-domain,Baseline transver1 (Data Only),"Baseline transver1 m, mu focus (Data Only)",Baseline transver2 (Data Only),"Baseline transver2 m, mu focus (Data Only)",PINN 4 Trans1 (m and mu separately+together),PINN 4 Trans2 (m and mu separately+together)
-m_seen_mu_seen,1.96,2.07,1.61,1.25,2.52,2.3
-m_over,12.07,12.63,13.13,9.91,15.82,9.13
-mu_over,1.72,2.2,2.02,1.58,3.02,1.5
-mu_under,3.92,3.66,2.94,3.03,4.16,4.62
-m_over_mu_over,15.48,12.33,19.1,20.67,15.28,16.49
-m_over_mu_under,13.33,13.87,11.57,10.21,18.03,14.84
+domain,Baseline transver3 (Data Only),"Baseline transver3 m, mu focus (Data Only)",PINN 3 Trans3 (m and mu separately),PINN 4 Trans3 (m and mu separately+together),Hybrid Trans3 (PINN 2 + DATA force)
+m_seen_mu_seen,0.55,0.49,1.56,1.36,1.63
+m_over,6.75,6.56,10.65,8.73,10.41
+mu_over,2.11,2.6,3.43,2.34,3.81
+mu_under,2.21,2.19,3.88,3.32,2.21
+m_over_mu_over,8.22,15.28,5.32,6.39,4.07
+m_over_mu_under,8.15,7.22,17.14,14.34,16.96

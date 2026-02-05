@@ -3,17 +3,17 @@
     \caption{Mass Estimation Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccc}
+    \begin{tabular}{l ccccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver1} & \textbf{Baseline transver1 m, mu focus} & \textbf{Baseline transver2} & \textbf{Baseline transver2 m, mu focus} & \textbf{PINN 4 Trans1} & \textbf{PINN 4 Trans2} \\
-         & (Data Only) & (Data Only) & (Data Only) & (Data Only) & (m and mu separately+together) & (m and mu separately+together) \\
+        \textbf{Domain} & \textbf{Baseline transver3} & \textbf{Baseline transver3 m, mu focus} & \textbf{PINN 3 Trans3} & \textbf{PINN 4 Trans3} & \textbf{Hybrid Trans3} \\
+         & (Data Only) & (Data Only) & (m and mu separately) & (m and mu separately+together) & (PINN 2 + DATA force) \\
         \midrule
-        m\_seen\_mu\_seen & 1.96 & 2.07 & 1.61 & \textbf{1.25} & 2.52 & 2.30 \\
-        m\_over & 12.07 & 12.63 & 13.13 & 9.91 & 15.82 & \textbf{9.13} \\
-        mu\_over & 1.72 & 2.20 & 2.02 & 1.58 & 3.02 & \textbf{1.50} \\
-        mu\_under & 3.92 & 3.66 & \textbf{2.94} & 3.03 & 4.16 & 4.62 \\
-        m\_over\_mu\_over & 15.48 & \textbf{12.33} & 19.10 & 20.67 & 15.28 & 16.49 \\
-        m\_over\_mu\_under & 13.33 & 13.87 & 11.57 & \textbf{10.21} & 18.03 & 14.84 \\
+        m\_seen\_mu\_seen & 0.55 & \textbf{0.49} & 1.56 & 1.36 & 1.63 \\
+        m\_over & 6.75 & \textbf{6.56} & 10.65 & 8.73 & 10.41 \\
+        mu\_over & \textbf{2.11} & 2.60 & 3.43 & 2.34 & 3.81 \\
+        mu\_under & 2.21 & \textbf{2.19} & 3.88 & 3.32 & 2.21 \\
+        m\_over\_mu\_over & 8.22 & 15.28 & 5.32 & 6.39 & \textbf{4.07} \\
+        m\_over\_mu\_under & 8.15 & \textbf{7.22} & 17.14 & 14.34 & 16.96 \\
         \bottomrule
     \end{tabular}
     }
