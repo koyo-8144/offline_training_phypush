@@ -3,17 +3,20 @@
     \caption{Mass Estimation Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccc}
+    \begin{tabular}{l ccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen 1.0} & \textbf{Baseline transver4 mmaxseen 1.0 m, mu focus} & \textbf{PINN 6 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} & \textbf{PINN 7 Trans4 mmaxseen1.0} & \textbf{Hybrid Trans4 mmaxseen1.0} \\
-         & (Data Only) & (Data Only) &  & (PINN 6 res + DATA main) &  & (PINN 7 res + DATA main) \\
+        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} \\
+         & (Data Only) &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 1.19 & 1.35 & 0.79 & 1.47 & 0.59 & \textbf{0.54} \\
-        m\_over & \textbf{16.12} & 17.70 & 17.50 & 18.34 & 18.26 & 25.86 \\
-        mu\_over & 2.82 & \textbf{0.93} & 1.47 & 0.99 & 1.53 & 1.69 \\
-        mu\_under & \textbf{0.63} & 3.20 & 2.06 & 3.10 & 1.39 & 1.59 \\
-        m\_over\_mu\_over & \textbf{16.11} & 17.48 & 18.26 & 18.09 & 19.82 & 36.07 \\
-        m\_over\_mu\_under & \textbf{15.96} & 17.47 & 18.01 & 18.62 & 18.59 & 16.14 \\
+        m\_seen\_mu\_seen & \textbf{0.57} & 0.96 & 0.86 \\
+        m\_over & 16.77 & 15.95 & \textbf{15.15} \\
+        m\_under & 3.72 & 3.81 & \textbf{3.12} \\
+        mu\_over & 2.15 & 3.11 & \textbf{1.78} \\
+        mu\_under & 1.41 & \textbf{0.68} & 2.32 \\
+        m\_over\_mu\_over & 19.28 & \textbf{15.21} & 16.99 \\
+        m\_under\_mu\_under & 3.80 & 3.79 & \textbf{3.07} \\
+        m\_over\_mu\_under & 17.55 & 16.86 & \textbf{15.17} \\
+        m\_under\_mu\_over & 3.80 & 3.83 & \textbf{3.28} \\
         \bottomrule
     \end{tabular}
     }
