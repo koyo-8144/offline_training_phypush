@@ -1,22 +1,22 @@
-\begin{table}[p]
+\begin{table}[htbp]
     \centering
     \caption{Net Force Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l ccccccccc}
+    \begin{tabular}{l ccccccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 8 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{Hybrid Trans4 mmaxseen1.0 mminseen0.3} & \textbf{Hybrid Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 5 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 6 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 7 Trans4 mmaxseen1.0 mminseen0.3} \\
-         & (Data Only) &  & (PINN 8 res + DATA main) & (PINN 8 res later + DATA main) &  &  &  &  &  \\
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{data\_tcri-log1p\_mse\_task10.0\_fcri-log1p\_mse\_force10.0} & \textbf{pinn\_annstartepo100\_pcri-mse\_p5c10.0\_p8c5.0} & \textbf{pinn\_pcri-mse\_p5c10.0} & \textbf{pinn\_pcri-mse\_p5c10.0\_p8c1.0} & \textbf{pinn\_pcri-mse\_p5c10.0\_p8c10.0} & \textbf{pinn\_pcri-mse\_p5c10.0\_p8c5.0} \\
+         &  &  &  &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 0.61 & 1.72 & 0.61 & 0.62 & \textbf{0.42} & 0.43 & 5.28 & 0.52 & 0.43 \\
-        m\_over & 1.38 & 2.87 & 1.43 & 1.33 & 1.45 & 1.47 & 5.82 & 1.67 & \textbf{1.24} \\
-        m\_under & 0.54 & 0.73 & \textbf{0.44} & 0.55 & 0.46 & 0.52 & 4.88 & \textbf{0.44} & 0.54 \\
-        mu\_over & 0.83 & 1.76 & 0.76 & 0.78 & \textbf{0.62} & \textbf{0.62} & 3.75 & 1.08 & \textbf{0.62} \\
-        mu\_under & 0.54 & 1.66 & 0.54 & 0.55 & \textbf{0.37} & 0.42 & 6.52 & 0.39 & 0.42 \\
-        m\_over\_mu\_over & 1.54 & 2.75 & 1.56 & \textbf{1.36} & 2.49 & 1.91 & 3.93 & 2.41 & 1.66 \\
-        m\_under\_mu\_under & 0.54 & 0.61 & 0.39 & 0.53 & \textbf{0.38} & 0.45 & 5.01 & 0.41 & 0.50 \\
-        m\_over\_mu\_under & 1.38 & 3.07 & 1.27 & 1.25 & \textbf{1.22} & 1.43 & 8.25 & 1.35 & \textbf{1.22} \\
-        m\_under\_mu\_over & 0.89 & 1.11 & \textbf{0.80} & 0.89 & 0.83 & 0.89 & 4.79 & \textbf{0.80} & 0.90 \\
+        m\_seen\_mu\_seen & 8.12 & 0.61 & 6.20 & 5.28 & 1.08 & 0.66 & \textbf{0.51} \\
+        m\_over & 9.00 & 1.38 & 6.89 & 5.82 & 2.10 & 1.77 & \textbf{1.30} \\
+        m\_under & 5.52 & 0.54 & 4.96 & 4.88 & \textbf{0.42} & 1.10 & 0.48 \\
+        mu\_over & 7.65 & \textbf{0.83} & 5.73 & 3.75 & 1.50 & 1.20 & 0.91 \\
+        mu\_under & 8.89 & \textbf{0.54} & 5.41 & 6.52 & 1.15 & 0.83 & 0.57 \\
+        m\_over\_mu\_over & 8.32 & \textbf{1.54} & 5.87 & 3.93 & 2.66 & 2.54 & 2.07 \\
+        m\_under\_mu\_under & 5.55 & 0.54 & 4.71 & 5.01 & \textbf{0.32} & 1.19 & 0.41 \\
+        m\_over\_mu\_under & 10.59 & \textbf{1.38} & 6.42 & 8.25 & 2.65 & 2.60 & 1.81 \\
+        m\_under\_mu\_over & 6.04 & 0.89 & 5.22 & 4.79 & \textbf{0.84} & 1.32 & 0.85 \\
         \bottomrule
     \end{tabular}
     }

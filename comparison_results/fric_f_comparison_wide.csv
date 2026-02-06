@@ -1,10 +1,10 @@
-domain,Baseline transver4 mmaxseen1.0 mminseen0.3 (Data Only),PINN 8 Trans4 mmaxseen1.0 mminseen0.3,Hybrid Trans4 mmaxseen1.0 mminseen0.3 (PINN 8 res + DATA main),Hybrid Trans4 mmaxseen1.0 mminseen0.3 (PINN 8 res later + DATA main),PINN 3 Trans4 mmaxseen1.0 mminseen0.3,PINN 4 Trans4 mmaxseen1.0 mminseen0.3,PINN 5 Trans4 mmaxseen1.0 mminseen0.3,PINN 6 Trans4 mmaxseen1.0 mminseen0.3,PINN 7 Trans4 mmaxseen1.0 mminseen0.3
-m_seen_mu_seen,0.28,10.9,0.32,0.31,0.69,1.15,9.26,0.97,1.07
-m_over,4.5,25.49,4.41,4.34,4.38,5.15,23.96,4.41,4.86
-m_under,0.89,2.91,0.93,0.86,1.15,1.13,1.63,1.16,1.18
-mu_over,0.79,15.94,0.71,0.82,1.21,1.77,14.79,1.67,1.58
-mu_under,0.78,6.15,1.06,0.7,1.24,1.29,4.55,1.09,1.38
-m_over_mu_over,13.68,37.45,13.88,13.54,13.6,14.53,36.77,12.74,14.68
-m_under_mu_under,1.55,1.74,1.64,1.49,1.88,1.85,0.76,1.6,1.95
-m_over_mu_under,1.06,14.38,1.17,0.96,2.69,3.11,12.55,2.87,2.34
-m_under_mu_over,0.99,4.24,0.95,0.96,1.06,1.05,2.83,1.31,1.12
+domain,data_tcri-log1p_mse_task10.0,data_tcri-log1p_mse_task10.0_fcri-log1p_mse_force10.0,pinn_annstartepo100_pcri-mse_p5c10.0_p8c5.0,pinn_pcri-mse_p5c10.0,pinn_pcri-mse_p5c10.0_p8c1.0,pinn_pcri-mse_p5c10.0_p8c10.0,pinn_pcri-mse_p5c10.0_p8c5.0
+m_seen_mu_seen,10.4,0.28,9.69,9.26,3.41,1.61,2.68
+m_over,24.91,4.5,24.41,23.96,8.49,5.4,7.64
+m_under,2.46,0.89,1.78,1.63,1.67,0.87,0.99
+mu_over,15.57,0.79,14.87,14.79,4.54,2.2,4.03
+mu_under,5.44,0.78,5.1,4.55,2.35,1.03,1.64
+m_over_mu_over,37.06,13.68,36.64,36.77,15.91,13.51,15.08
+m_under_mu_under,1.27,1.55,0.71,0.76,1.68,1.38,1.23
+m_over_mu_under,13.44,1.06,13.46,12.55,4.02,2.09,3.71
+m_under_mu_over,3.77,0.99,3.09,2.83,1.97,1.05,1.47
