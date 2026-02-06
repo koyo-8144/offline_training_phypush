@@ -1,0 +1,4 @@
+🚀 Experiment Ready: data_ann0_fcri-log1p_mse_force10.0
+
+--- Starting Training ---
+    💾 Regular Checkpoint saved: checkpoints/from_20260202_b64_lroptAdamW_lrscheReduceLROnPlateau_msharp30.0_musharp10.0_dropout0.4_numepo500_transver4__mseenmax1.0_mseenmin0.3/data_ann0_fcri-log1p_mse_force10.0/transformer_epoch100.pth

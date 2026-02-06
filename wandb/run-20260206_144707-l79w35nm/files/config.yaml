@@ -1,0 +1,101 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            ckka3ot96shyzmnls8zftx0f5wku4v8r:
+                codePath: train.ipynb
+                codePathLocal: train.ipynb
+                cpu_count: 24
+                cpu_count_logical: 24
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "497553809408"
+                        used: "175789236224"
+                email: tengjinghuangyang@gmail.com
+                executable: /home/psxkf4/miniconda3/envs/phypush/bin/python3.10
+                git:
+                    commit: d43e11741cbbc755e6c11fe65dffe054641a1ab3
+                    remote: https://github.com/koyo-8144/offline_training_phypush.git
+                gpu: NVIDIA GeForce RTX 5070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 8960
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5070 Ti
+                      uuid: GPU-6a02e1a9-c154-de85-baf0-584cac397017
+                host: DUIP79702
+                memory:
+                    total: "32956125184"
+                os: Linux-6.17.0-1009-oem-x86_64-with-glibc2.39
+                program: train.ipynb
+                python: CPython 3.10.19
+                root: /home/psxkf4/phypush_offline_training
+                startedAt: "2026-02-06T14:47:07.299775Z"
+                writerId: ckka3ot96shyzmnls8zftx0f5wku4v8r
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 1
+                - 13
+                - 16
+            "4": 3.10.19
+            "5": 0.24.2
+            "8":
+                - 1
+            "12": 0.24.2
+            "13": linux-x86_64
+batch_size:
+    value: 64
+cross_sharpness:
+    value: 10
+dropout:
+    value: 0.4
+force_coeff:
+    value: 10
+force_criterion:
+    value: log1p_mse
+init_lr:
+    value: 0.0015
+loss_type:
+    value: data
+lr_optimizer:
+    value: AdamW
+lr_scheduler:
+    value: ReduceLROnPlateau
+m_sharpness:
+    value: 30
+mu_sharpness:
+    value: 10
+num_epochs:
+    value: 500
+pinn_annealing:
+    value: 0
+pinn_coeffs:
+    value:
+        p1: 0
+        p2: 0
+        p3: 0
+        p4: 0
+        p5: 0
+        p6: 0
+        p7: 0
+        p8: 0
+pinn_criterion:
+    value: mse
+task_coeff:
+    value: 0
+task_criterion:
+    value: log1p_mse
+transformer_ver:
+    value: 4

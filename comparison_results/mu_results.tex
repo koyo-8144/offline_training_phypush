@@ -3,20 +3,20 @@
     \caption{Friction Coefficient Error (NMAE \%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccc}
+    \begin{tabular}{l ccccccccc}
         \toprule
-        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 5 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 6 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 7 Trans4 mmaxseen1.0 mminseen0.3} \\
-         & (Data Only) &  &  &  &  &  \\
+        \textbf{Domain} & \textbf{Baseline transver4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 8 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{Hybrid Trans4 mmaxseen1.0 mminseen0.3} & \textbf{Hybrid Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 3 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 4 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 5 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 6 Trans4 mmaxseen1.0 mminseen0.3} & \textbf{PINN 7 Trans4 mmaxseen1.0 mminseen0.3} \\
+         & (Data Only) &  & (PINN 8 res + DATA main) & (PINN 8 res later + DATA main) &  &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 2.64 & 3.59 & 3.81 & 2.51 & \textbf{2.15} & 2.86 \\
-        m\_over & 13.10 & 17.39 & 13.59 & \textbf{8.34} & 12.20 & 16.91 \\
-        m\_under & 20.67 & 22.26 & 15.29 & \textbf{12.89} & 21.25 & 23.34 \\
-        mu\_over & 14.14 & 13.58 & 14.00 & 12.89 & 16.27 & \textbf{11.78} \\
-        mu\_under & 9.94 & \textbf{9.47} & 14.13 & 11.26 & 11.96 & 10.83 \\
-        m\_over\_mu\_over & 10.93 & 12.26 & 13.46 & 14.13 & 15.98 & \textbf{6.49} \\
-        m\_under\_mu\_under & 11.45 & \textbf{9.37} & 20.21 & 15.25 & 10.65 & 9.50 \\
-        m\_over\_mu\_under & 14.14 & 31.84 & 25.01 & \textbf{13.50} & 22.38 & 24.97 \\
-        m\_under\_mu\_over & 51.11 & 50.21 & 45.23 & \textbf{34.97} & 51.83 & 54.12 \\
+        m\_seen\_mu\_seen & 2.64 & 95.05 & 3.57 & 3.42 & 3.44 & 3.44 & 2.58 & \textbf{2.52} & 2.87 \\
+        m\_over & 13.10 & 95.41 & 13.78 & 13.56 & 19.12 & 24.51 & \textbf{8.31} & 14.98 & 16.73 \\
+        m\_under & 20.67 & 94.91 & 20.97 & 19.83 & 22.77 & 24.33 & \textbf{14.11} & 20.30 & 20.70 \\
+        mu\_over & 14.14 & 130.11 & 14.09 & 13.71 & 14.07 & \textbf{10.32} & 13.54 & 13.22 & 12.39 \\
+        mu\_under & 9.94 & 59.86 & 13.56 & 10.50 & \textbf{7.63} & 11.95 & 12.16 & 10.24 & 11.90 \\
+        m\_over\_mu\_over & 10.93 & 130.16 & 10.54 & 8.84 & 8.64 & \textbf{5.66} & 11.58 & 22.12 & 10.73 \\
+        m\_under\_mu\_under & 11.45 & 59.80 & 10.23 & 12.87 & 8.64 & \textbf{7.73} & 18.60 & 8.84 & 12.17 \\
+        m\_over\_mu\_under & 14.14 & 59.80 & 22.04 & 21.04 & 28.64 & 31.98 & \textbf{8.84} & 21.60 & 25.71 \\
+        m\_under\_mu\_over & 51.11 & 130.26 & 49.35 & 50.78 & 50.64 & 53.35 & \textbf{39.90} & 46.21 & 51.27 \\
         \bottomrule
     \end{tabular}
     }
