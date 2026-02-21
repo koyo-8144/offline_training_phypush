@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Mass nMAE (\%)}
+    \vspace{2mm}
+    \resizebox{0.5\textwidth}{!}{
+    \begin{tabular}{l cccccccc}
+        \toprule
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{hybrid\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p5c5.0} & \textbf{pinn\_annstartepo100\_pcri-mse\_p10c10.0\_p9-2c5.0} & \textbf{pinn\_annstartepo100\_pcri-mse\_p5c10.0\_p2-2c5.0} & \textbf{pinn\_annstartepo100\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p11c10.0\_p11-2c5.0} & \textbf{pinn\_pcri-mse\_p10c10.0} & \textbf{pinn\_pcri-mse\_p5c10.0} & \textbf{pinn\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p11c10.0} \\
+         &  &  &  &  &  &  &  &  \\
+        \midrule
+        m\_seen\_mu\_seen & 5.91 & \textbf{2.17} & 5.76 & 3.07 & 5.90 & 5.31 & 3.39 & 5.93 \\
+        m\_over & 29.29 & \textbf{16.11} & 22.91 & 18.28 & 24.78 & 22.00 & 18.27 & 28.20 \\
+        m\_under & 14.89 & 4.91 & 3.95 & 5.11 & 17.14 & 3.77 & \textbf{2.49} & 15.98 \\
+        mu\_over & 5.95 & 5.72 & \textbf{1.82} & 6.36 & 6.16 & 1.95 & 6.17 & 6.00 \\
+        mu\_under & 6.00 & \textbf{4.35} & 10.27 & 5.55 & 5.92 & 10.29 & 10.03 & 6.02 \\
+        m\_over\_mu\_over & 29.08 & \textbf{15.01} & 19.82 & 17.09 & 23.92 & 20.25 & 18.51 & 27.99 \\
+        m\_under\_mu\_under & 14.92 & 4.29 & 3.89 & 4.36 & 17.14 & 3.59 & \textbf{2.58} & 16.02 \\
+        m\_over\_mu\_under & 29.53 & \textbf{18.72} & 29.96 & 23.13 & 25.72 & 28.77 & 23.01 & 28.44 \\
+        m\_under\_mu\_over & 14.77 & 5.69 & 4.07 & 6.97 & 17.10 & 4.07 & \textbf{2.83} & 15.86 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

@@ -1,0 +1,10 @@
+domain,data_tcri-log1p_mse_task10.0,hybrid_tcri-log1p_mse_task10.0_pcri-mse_p5c5.0,pinn_annstartepo100_pcri-mse_p10c10.0_p9-2c5.0,pinn_annstartepo100_pcri-mse_p5c10.0_p2-2c5.0,pinn_annstartepo100_tcri-log1p_mse_task10.0_pcri-mse_p11c10.0_p11-2c5.0,pinn_pcri-mse_p10c10.0,pinn_pcri-mse_p5c10.0,pinn_tcri-log1p_mse_task10.0_pcri-mse_p11c10.0
+m_seen_mu_seen,6.82,2.69,6.91,3.72,6.95,6.57,4.11,6.84
+m_over,30.92,18.47,24.29,20.37,26.55,23.64,20.8,29.89
+m_under,15.02,5.11,4.37,5.32,17.25,4.16,3.06,16.1
+mu_over,6.87,6.05,2.28,6.97,7.33,2.42,6.78,6.94
+mu_under,6.88,5.19,11.84,6.58,6.92,11.84,10.94,6.91
+m_over_mu_over,30.73,17.9,21.87,19.75,25.78,22.47,21.09,29.7
+m_under_mu_under,15.05,4.64,4.34,4.74,17.25,4.05,3.15,16.13
+m_over_mu_under,31.15,20.49,30.72,24.28,27.47,29.44,23.8,30.12
+m_under_mu_over,14.9,5.8,4.41,7.06,17.2,4.35,3.25,15.98

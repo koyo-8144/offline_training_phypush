@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Mass sMAPE (\%)}
+    \vspace{2mm}
+    \resizebox{0.5\textwidth}{!}{
+    \begin{tabular}{l cccccccc}
+        \toprule
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{hybrid\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p5c5.0} & \textbf{pinn\_annstartepo100\_pcri-mse\_p10c10.0\_p9-2c5.0} & \textbf{pinn\_annstartepo100\_pcri-mse\_p5c10.0\_p2-2c5.0} & \textbf{pinn\_annstartepo100\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p11c10.0\_p11-2c5.0} & \textbf{pinn\_pcri-mse\_p10c10.0} & \textbf{pinn\_pcri-mse\_p5c10.0} & \textbf{pinn\_tcri-log1p\_mse\_task10.0\_pcri-mse\_p11c10.0} \\
+         &  &  &  &  &  &  &  &  \\
+        \midrule
+        m\_seen\_mu\_seen & 27.80 & \textbf{10.46} & 28.57 & 14.81 & 27.65 & 26.78 & 17.81 & 27.82 \\
+        m\_over & 78.44 & \textbf{35.52} & 56.52 & 41.73 & 62.05 & 53.25 & 41.59 & 74.28 \\
+        m\_under & 106.37 & 56.45 & 48.48 & 57.80 & 113.20 & 46.95 & \textbf{34.69} & 109.80 \\
+        mu\_over & 28.35 & 24.96 & \textbf{8.41} & 29.18 & 29.04 & 9.07 & 26.74 & 28.49 \\
+        mu\_under & 28.24 & \textbf{21.04} & 55.81 & 26.47 & 27.80 & 55.84 & 57.79 & 28.29 \\
+        m\_over\_mu\_over & 78.05 & \textbf{32.52} & 46.41 & 38.28 & 59.45 & 47.63 & 42.36 & 73.88 \\
+        m\_under\_mu\_under & 106.74 & 51.54 & 48.13 & 52.17 & 113.44 & 45.49 & \textbf{35.77} & 110.15 \\
+        m\_over\_mu\_under & 78.81 & \textbf{42.92} & 82.53 & 57.06 & 64.88 & 78.61 & 57.77 & 74.66 \\
+        m\_under\_mu\_over & 105.04 & 61.42 & 48.87 & 69.33 & 112.19 & 48.91 & \textbf{36.79} & 108.50 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
