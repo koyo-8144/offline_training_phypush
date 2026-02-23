@@ -3,20 +3,20 @@
     \caption{Mu NRMSE (\%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cc}
+    \begin{tabular}{l cccc}
         \toprule
-        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{pinn\_pcri-mse\_p5c10.0} \\
-         &  &  \\
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{pinn\_annstartepo600\_pcri-L1\_p5c10.0\_p2-2c5.0} & \textbf{pinn\_pcri-L1\_p10c10.0} & \textbf{pinn\_pcri-L1\_p5c10.0} \\
+         &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 18.76 & \textbf{10.87} \\
-        m\_over & 18.76 & \textbf{10.96} \\
-        m\_under & 18.83 & \textbf{10.76} \\
-        mu\_over & 40.25 & \textbf{29.62} \\
-        mu\_under & \textbf{8.77} & 18.91 \\
-        m\_over\_mu\_over & 39.96 & \textbf{29.61} \\
-        m\_under\_mu\_under & \textbf{8.62} & 18.91 \\
-        m\_over\_mu\_under & \textbf{8.90} & 18.89 \\
-        m\_under\_mu\_over & 40.54 & \textbf{29.66} \\
+        m\_seen\_mu\_seen & \textbf{10.44} & 11.26 & 14.61 & 11.58 \\
+        m\_over & \textbf{10.29} & 14.04 & 13.96 & 13.93 \\
+        m\_under & 17.63 & 10.78 & 14.52 & \textbf{10.69} \\
+        mu\_over & 27.33 & 22.44 & \textbf{13.32} & 22.98 \\
+        mu\_under & \textbf{11.50} & 23.76 & 34.94 & 23.36 \\
+        m\_over\_mu\_over & 25.49 & \textbf{13.45} & 13.74 & 13.61 \\
+        m\_under\_mu\_under & \textbf{9.22} & 29.58 & 35.11 & 29.41 \\
+        m\_over\_mu\_under & \textbf{20.47} & 33.88 & 35.12 & 33.94 \\
+        m\_under\_mu\_over & 38.95 & 18.98 & \textbf{13.00} & 19.15 \\
         \bottomrule
     \end{tabular}
     }

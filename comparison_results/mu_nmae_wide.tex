@@ -3,20 +3,20 @@
     \caption{Mu nMAE (\%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cc}
+    \begin{tabular}{l cccc}
         \toprule
-        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{pinn\_pcri-mse\_p5c10.0} \\
-         &  &  \\
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{pinn\_annstartepo600\_pcri-L1\_p5c10.0\_p2-2c5.0} & \textbf{pinn\_pcri-L1\_p10c10.0} & \textbf{pinn\_pcri-L1\_p5c10.0} \\
+         &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 16.26 & \textbf{9.05} \\
-        m\_over & 16.31 & \textbf{9.12} \\
-        m\_under & 16.38 & \textbf{8.97} \\
-        mu\_over & 40.00 & \textbf{29.29} \\
-        mu\_under & \textbf{7.56} & 18.37 \\
-        m\_over\_mu\_over & 39.71 & \textbf{29.28} \\
-        m\_under\_mu\_under & \textbf{7.42} & 18.39 \\
-        m\_over\_mu\_under & \textbf{7.71} & 18.36 \\
-        m\_under\_mu\_over & 40.31 & \textbf{29.35} \\
+        m\_seen\_mu\_seen & \textbf{8.30} & 9.28 & 12.03 & 9.48 \\
+        m\_over & \textbf{8.78} & 11.48 & 11.39 & 11.38 \\
+        m\_under & 15.09 & 8.95 & 11.94 & \textbf{8.89} \\
+        mu\_over & 26.19 & 20.87 & \textbf{12.57} & 21.24 \\
+        mu\_under & \textbf{10.72} & 22.49 & 34.67 & 21.87 \\
+        m\_over\_mu\_over & 24.73 & \textbf{12.70} & 13.00 & 12.88 \\
+        m\_under\_mu\_under & \textbf{8.16} & 29.25 & 34.84 & 29.07 \\
+        m\_over\_mu\_under & \textbf{20.01} & 33.60 & 34.83 & 33.66 \\
+        m\_under\_mu\_over & 38.67 & 18.49 & \textbf{12.30} & 18.67 \\
         \bottomrule
     \end{tabular}
     }
