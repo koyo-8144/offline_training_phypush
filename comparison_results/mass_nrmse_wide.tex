@@ -3,20 +3,20 @@
     \caption{Mass NRMSE (\%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l cccccccccccccc}
+    \begin{tabular}{l ccccccccccc}
         \toprule
-        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0 [MS20\_Drop0.2]} & \textbf{pinn\_annstartepo600\_pcri-L1\_p5c10.0\_p2-2c5.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p5c10.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.2]} & \textbf{pinn\_annstartepo200\_pcri-L1\_p5c10.0\_p2-2c5.0 [Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [FS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [FS20\_Drop0.4\_Epo500]} \\
-         &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+        \textbf{Domain} & \textbf{pinn\_annstartepo200\_pcri-L1\_p10c10.0\_p2-2c5.0 [Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo200\_pcri-L1\_p5c10.0\_p2-2c5.0 [Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo200\_pcri-L1\_p10c10.0\_p2-2c5.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p10c10.0 [FS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [FS20\_Drop0.4\_Epo500]} \\
+         &  &  &  &  &  &  &  &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 8.66 & 4.24 & 9.51 & 4.12 & 12.56 & 4.24 & 3.82 & 3.95 & 4.31 & 14.19 & 14.23 & \textbf{3.66} & 7.21 & 11.94 \\
-        m\_over & 34.04 & 26.16 & 36.37 & 25.81 & 37.89 & 24.11 & 25.83 & 25.95 & 23.95 & 42.55 & 42.58 & 25.43 & 28.38 & \textbf{21.85} \\
-        m\_under & 7.10 & 11.75 & 5.37 & 11.76 & 4.37 & 9.47 & \textbf{3.01} & 3.04 & 9.66 & 3.47 & 3.41 & 4.38 & 17.74 & 25.17 \\
-        mu\_over & 7.68 & 4.37 & 9.03 & 4.32 & 11.21 & 3.10 & 2.74 & 2.79 & 3.21 & 14.00 & 14.03 & \textbf{2.57} & 7.34 & 12.15 \\
-        mu\_under & 9.66 & 4.91 & 10.59 & \textbf{4.79} & 13.41 & 5.46 & 6.32 & 6.48 & 5.18 & 14.18 & 14.24 & 5.22 & 7.28 & 12.02 \\
-        m\_over\_mu\_over & 34.29 & 25.83 & 36.15 & 25.46 & 37.67 & 22.82 & 25.46 & 25.57 & 22.49 & 42.29 & 42.32 & 25.35 & 28.13 & \textbf{21.64} \\
-        m\_under\_mu\_under & 6.86 & 11.78 & 5.28 & 11.79 & 4.60 & 9.39 & \textbf{3.17} & 3.21 & 9.55 & 3.50 & 3.43 & 4.39 & 17.78 & 25.21 \\
-        m\_over\_mu\_under & 35.47 & 27.00 & 37.06 & 26.58 & 40.08 & 26.52 & 26.41 & 26.55 & 26.55 & 42.82 & 42.85 & 26.89 & 28.63 & \textbf{22.07} \\
-        m\_under\_mu\_over & 7.20 & 11.63 & 5.41 & 11.64 & 4.10 & 9.50 & \textbf{2.76} & 2.77 & 9.71 & 3.37 & 3.30 & 4.39 & 17.62 & 25.05 \\
+        m\_seen\_mu\_seen & 3.70 & 4.24 & 3.82 & 3.95 & 4.31 & 14.09 & 14.19 & 14.23 & \textbf{3.66} & 7.21 & 11.94 \\
+        m\_over & 25.82 & 24.11 & 25.83 & 25.95 & 23.95 & 42.46 & 42.55 & 42.58 & 25.43 & 28.38 & \textbf{21.85} \\
+        m\_under & 3.07 & 9.47 & \textbf{3.01} & 3.04 & 9.66 & 3.60 & 3.47 & 3.41 & 4.38 & 17.74 & 25.17 \\
+        mu\_over & 2.77 & 3.10 & 2.74 & 2.79 & 3.21 & 13.90 & 14.00 & 14.03 & \textbf{2.57} & 7.34 & 12.15 \\
+        mu\_under & 6.20 & 5.46 & 6.32 & 6.48 & \textbf{5.18} & 14.06 & 14.18 & 14.24 & 5.22 & 7.28 & 12.02 \\
+        m\_over\_mu\_over & 25.45 & 22.82 & 25.46 & 25.57 & 22.49 & 42.19 & 42.29 & 42.32 & 25.35 & 28.13 & \textbf{21.64} \\
+        m\_under\_mu\_under & \textbf{3.15} & 9.39 & 3.17 & 3.21 & 9.55 & 3.63 & 3.50 & 3.43 & 4.39 & 17.78 & 25.21 \\
+        m\_over\_mu\_under & 26.38 & 26.52 & 26.41 & 26.55 & 26.55 & 42.72 & 42.82 & 42.85 & 26.89 & 28.63 & \textbf{22.07} \\
+        m\_under\_mu\_over & 2.88 & 9.50 & \textbf{2.76} & 2.77 & 9.71 & 3.49 & 3.37 & 3.30 & 4.39 & 17.62 & 25.05 \\
         \bottomrule
     \end{tabular}
     }
