@@ -1,10 +1,10 @@
-domain,data_tcri-log1p_mse_task10.0,pinn_annstartepo600_pcri-L1_p5c10.0_p2-2c5.0,pinn_pcri-L1_p10c10.0,pinn_pcri-L1_p5c10.0,pinn_pcri-L1_p5c10.0_v2
-m_seen_mu_seen,1.31,1.72,1.35,1.73,4.24
-m_over,2.74,3.0,1.87,3.0,4.3
-m_under,1.59,1.3,2.4,1.36,4.38
-mu_over,1.46,1.82,1.2,1.82,4.02
-mu_under,1.63,1.63,1.78,1.65,4.59
-m_over_mu_over,2.55,2.95,1.99,2.95,4.22
-m_under_mu_under,1.68,1.29,2.53,1.35,4.24
-m_over_mu_under,2.11,2.81,1.64,2.82,4.52
-m_under_mu_over,1.55,1.32,2.25,1.38,4.49
+domain,data_tcri-log1p_mse_task10.0 [MS20_Drop0.2],pinn_annstartepo600_pcri-L1_p5c10.0_p2-2c5.0 [MS20_Drop0.2],pinn_pcri-L1_p10c10.0 [MS20_Drop0.2],pinn_pcri-L1_p5c10.0 [MS20_Drop0.2],pinn_pcri-L1_p5c10.0 [Drop0.2],pinn_pcri-L1_p10c10.0 [Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [MS20_Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [FS20_Drop0.4_Epo500]
+m_seen_mu_seen,1.31,1.72,1.35,1.73,4.24,1.28,1.26,2.18,3.78
+m_over,2.74,3.0,1.87,3.0,4.3,2.61,1.83,4.59,4.25
+m_under,1.59,1.3,2.4,1.36,4.38,0.44,0.45,3.93,3.48
+mu_over,1.46,1.82,1.2,1.82,4.02,1.37,1.09,2.61,3.76
+mu_under,1.63,1.63,1.78,1.65,4.59,1.21,1.38,1.87,3.82
+m_over_mu_over,2.55,2.95,1.99,2.95,4.22,2.6,1.96,4.49,4.14
+m_under_mu_under,1.68,1.29,2.53,1.35,4.24,0.39,0.37,4.0,3.47
+m_over_mu_under,2.11,2.81,1.64,2.82,4.52,2.49,2.14,4.01,4.35
+m_under_mu_over,1.55,1.32,2.25,1.38,4.49,0.58,0.58,3.87,3.49

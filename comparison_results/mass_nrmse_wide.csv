@@ -1,10 +1,10 @@
-domain,data_tcri-log1p_mse_task10.0,pinn_annstartepo600_pcri-L1_p5c10.0_p2-2c5.0,pinn_pcri-L1_p10c10.0,pinn_pcri-L1_p5c10.0,pinn_pcri-L1_p5c10.0_v2
-m_seen_mu_seen,8.66,4.24,9.51,4.12,12.56
-m_over,34.04,26.16,36.37,25.81,37.89
-m_under,7.1,11.75,5.37,11.76,4.37
-mu_over,7.68,4.37,9.03,4.32,11.21
-mu_under,9.66,4.91,10.59,4.79,13.41
-m_over_mu_over,34.29,25.83,36.15,25.46,37.67
-m_under_mu_under,6.86,11.78,5.28,11.79,4.6
-m_over_mu_under,35.47,27.0,37.06,26.58,40.08
-m_under_mu_over,7.2,11.63,5.41,11.64,4.1
+domain,data_tcri-log1p_mse_task10.0 [MS20_Drop0.2],pinn_annstartepo600_pcri-L1_p5c10.0_p2-2c5.0 [MS20_Drop0.2],pinn_pcri-L1_p10c10.0 [MS20_Drop0.2],pinn_pcri-L1_p5c10.0 [MS20_Drop0.2],pinn_pcri-L1_p5c10.0 [Drop0.2],pinn_pcri-L1_p10c10.0 [Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [MS20_Drop0.4_Epo500],pinn_pcri-L1_p5c10.0 [FS20_Drop0.4_Epo500]
+m_seen_mu_seen,8.66,4.24,9.51,4.12,12.56,3.95,4.31,3.66,11.94
+m_over,34.04,26.16,36.37,25.81,37.89,25.95,23.95,25.43,21.85
+m_under,7.1,11.75,5.37,11.76,4.37,3.04,9.66,4.38,25.17
+mu_over,7.68,4.37,9.03,4.32,11.21,2.79,3.21,2.57,12.15
+mu_under,9.66,4.91,10.59,4.79,13.41,6.48,5.18,5.22,12.02
+m_over_mu_over,34.29,25.83,36.15,25.46,37.67,25.57,22.49,25.35,21.64
+m_under_mu_under,6.86,11.78,5.28,11.79,4.6,3.21,9.55,4.39,25.21
+m_over_mu_under,35.47,27.0,37.06,26.58,40.08,26.55,26.55,26.89,22.07
+m_under_mu_over,7.2,11.63,5.41,11.64,4.1,2.77,9.71,4.39,25.05

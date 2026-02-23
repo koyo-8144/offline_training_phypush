@@ -3,20 +3,20 @@
     \caption{Mass sMAPE (\%)}
     \vspace{2mm}
     \resizebox{0.5\textwidth}{!}{
-    \begin{tabular}{l ccccc}
+    \begin{tabular}{l ccccccccc}
         \toprule
-        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0} & \textbf{pinn\_annstartepo600\_pcri-L1\_p5c10.0\_p2-2c5.0} & \textbf{pinn\_pcri-L1\_p10c10.0} & \textbf{pinn\_pcri-L1\_p5c10.0} & \textbf{pinn\_pcri-L1\_p5c10.0\_v2} \\
-         &  &  &  &  &  \\
+        \textbf{Domain} & \textbf{data\_tcri-log1p\_mse\_task10.0 [MS20\_Drop0.2]} & \textbf{pinn\_annstartepo600\_pcri-L1\_p5c10.0\_p2-2c5.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p5c10.0 [MS20\_Drop0.2]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.2]} & \textbf{pinn\_pcri-L1\_p10c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [MS20\_Drop0.4\_Epo500]} & \textbf{pinn\_pcri-L1\_p5c10.0 [FS20\_Drop0.4\_Epo500]} \\
+         &  &  &  &  &  &  &  &  &  \\
         \midrule
-        m\_seen\_mu\_seen & 33.52 & 17.81 & 38.19 & \textbf{17.35} & 61.06 \\
-        m\_over & 92.02 & 60.33 & 102.49 & \textbf{59.03} & 111.03 \\
-        m\_under & 70.40 & 94.21 & 57.64 & 94.25 & \textbf{46.08} \\
-        mu\_over & 29.73 & 19.09 & 35.18 & \textbf{18.90} & 53.02 \\
-        mu\_under & 38.87 & 19.62 & 44.59 & \textbf{19.22} & 65.27 \\
-        m\_over\_mu\_over & 93.06 & 59.42 & 102.27 & \textbf{58.14} & 110.82 \\
-        m\_under\_mu\_under & 68.73 & 94.63 & 56.77 & 94.68 & \textbf{49.63} \\
-        m\_over\_mu\_under & 98.44 & 63.79 & 105.49 & \textbf{62.36} & 122.12 \\
-        m\_under\_mu\_over & 69.87 & 92.75 & 57.40 & 92.80 & \textbf{42.55} \\
+        m\_seen\_mu\_seen & 33.52 & 17.81 & 38.19 & 17.35 & 61.06 & 14.75 & 17.40 & \textbf{10.69} & 40.80 \\
+        m\_over & 92.02 & 60.33 & 102.49 & 59.03 & 111.03 & 59.80 & 53.93 & 58.14 & \textbf{44.84} \\
+        m\_under & 70.40 & 94.21 & 57.64 & 94.25 & 46.08 & \textbf{33.87} & 84.78 & 49.10 & 130.91 \\
+        mu\_over & 29.73 & 19.09 & 35.18 & 18.90 & 53.02 & \textbf{8.89} & 13.24 & 9.03 & 41.85 \\
+        mu\_under & 38.87 & 19.62 & 44.59 & 19.22 & 65.27 & 30.34 & 21.10 & \textbf{17.05} & 41.15 \\
+        m\_over\_mu\_over & 93.06 & 59.42 & 102.27 & 58.14 & 110.82 & 58.62 & 47.96 & 57.59 & \textbf{44.36} \\
+        m\_under\_mu\_under & 68.73 & 94.63 & 56.77 & 94.68 & 49.63 & \textbf{36.13} & 84.31 & 49.77 & 131.24 \\
+        m\_over\_mu\_under & 98.44 & 63.79 & 105.49 & 62.36 & 122.12 & 62.33 & 59.96 & 64.19 & \textbf{45.17} \\
+        m\_under\_mu\_over & 69.87 & 92.75 & 57.40 & 92.80 & 42.55 & \textbf{29.65} & 84.31 & 48.50 & 129.82 \\
         \bottomrule
     \end{tabular}
     }
