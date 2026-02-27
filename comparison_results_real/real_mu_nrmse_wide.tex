@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \caption{Real-World Mu NRMSE (\%)}
+    \vspace{2mm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{l ccccc}
+        \toprule
+        \textbf{Domain} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [FS15\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo400\_rampd400\_pcri-L1\_p10c10.0\_p9-2c5.0 [FS15\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS10\_Drop0.4\_Epo1000]} \\
+         &  &  &  &  &  \\
+        \midrule
+        m\_over & - & 22.59 & 23.38 & \textbf{19.23} & \textbf{19.23} \\
+        m\_over\_mu\_over & - & 27.75 & 24.96 & \textbf{23.54} & \textbf{23.54} \\
+        m\_over\_mu\_under & - & \textbf{37.08} & 41.68 & 44.93 & 44.93 \\
+        m\_seen\_mu\_seen & 21.95 & 12.33 & 12.25 & \textbf{11.93} & \textbf{11.93} \\
+        m\_under & - & 26.58 & 26.80 & \textbf{22.25} & \textbf{22.25} \\
+        m\_under\_mu\_over & - & 57.92 & 57.95 & \textbf{51.98} & \textbf{51.98} \\
+        m\_under\_mu\_under & - & 14.69 & \textbf{14.27} & 18.75 & 18.75 \\
+        mu\_over & - & 34.80 & 34.17 & \textbf{29.99} & \textbf{29.99} \\
+        mu\_under & - & \textbf{15.78} & 16.33 & 31.39 & 31.39 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
