@@ -1,10 +1,10 @@
-domain,pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS15_Drop0.4_Epo1000],pinn_annstartepo400_rampd400_pcri-L1_p10c10.0_p9-2c5.0 [FS15_Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p10c10.0_p9-2c5.0 [MS10_Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [MS10_Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [MS10_Drop0.4_Epo1000]
-m_seen_mu_seen,12.33,12.25,11.93,11.93,12.97
-m_over,22.59,23.38,19.23,19.23,14.05
-m_under,26.58,26.8,22.25,22.25,21.99
-mu_over,34.8,34.17,29.99,29.99,32.29
-mu_under,15.78,16.33,31.39,31.39,31.87
-m_over_mu_over,27.75,24.96,23.54,23.54,37.81
-m_under_mu_under,14.69,14.27,18.75,18.75,19.31
-m_over_mu_under,37.08,41.68,44.93,44.93,32.76
-m_under_mu_over,57.92,57.95,51.98,51.98,51.9
+domain,pinn_pcri-L1_p10c10.0 [FS10_MS0_Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [MS10_Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p10c10.0_p9-2c5.0 [MS10_Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [MS10_Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [FS10_Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000],pinn_annstartepo400_rampd800_pcri-L1_p5c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000],hybrid_tcri-log1p_mse_task10.0_pcri-L1_p10c0.05 [Drop0.4_Epo1000],pinn_annstartepo200_rampd700_pcri-L1_p5c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p2-2c5.0 [FS10_Drop0.4_Epo1000],pinn_pcri-L1_p5c10.0 [FS10_Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p11c10.0_p11-2c5.0 [FS10_Drop0.4_Epo1000],pinn_annstartepo400_rampd500_pcri-L1_p11c10.0_p11-2c5.0 [FS10_Drop0.4_Epo1000],hybrid_tcri-log1p_mse_task10.0_pcri-L1_p10c10.0 [Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0_p9-2c5.0 [Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p2-2c5.0 [Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0 [Drop0.4_Epo1000]
+m_seen_mu_seen,12.08,11.93,11.93,12.97,15.02,19.96,20.27,15.17,14.74,15.54,15.03,21.95,21.15,19.59,19.69,18.18,20.81,22.99,20.7,21.1
+m_over,25.66,19.23,19.23,14.05,15.05,19.37,19.0,23.57,21.03,16.92,17.3,29.21,15.32,19.83,19.94,18.47,15.97,23.13,22.33,23.49
+m_under,18.9,22.25,22.25,21.99,27.73,15.16,14.81,15.58,24.29,28.31,22.14,24.23,31.85,19.41,19.52,27.45,32.07,23.52,39.91,40.62
+mu_over,31.26,29.99,29.99,32.29,38.19,46.62,45.23,32.94,32.73,38.07,38.43,36.54,46.36,50.46,50.62,30.61,42.28,55.07,36.74,37.96
+mu_under,22.88,31.39,31.39,31.87,23.06,22.3,26.66,30.31,30.72,32.04,21.66,17.95,21.48,24.8,24.65,41.52,28.75,20.18,29.6,26.26
+m_over_mu_over,16.67,23.54,23.54,37.81,32.09,34.05,33.31,18.98,21.62,34.97,27.21,12.82,30.44,50.46,50.62,25.72,29.79,54.89,20.67,18.93
+m_under_mu_under,25.83,18.75,18.75,19.31,16.45,31.44,36.87,33.33,18.23,11.67,28.46,21.76,10.98,24.8,24.65,15.4,10.6,19.44,6.87,7.07
+m_over_mu_under,40.22,44.93,44.93,32.76,38.97,34.87,35.29,52.85,47.42,30.46,43.02,57.51,40.9,24.78,24.62,49.29,44.42,20.5,55.31,56.72
+m_under_mu_over,49.2,51.98,51.98,51.9,58.05,41.28,34.62,43.51,56.19,59.07,53.97,57.49,65.91,50.52,50.68,61.08,65.94,55.99,73.13,73.89

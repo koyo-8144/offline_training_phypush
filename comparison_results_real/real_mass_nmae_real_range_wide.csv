@@ -1,0 +1,25 @@
+domain,pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [FS10_Drop0.4_Epo1000],data_tcri-log1p_mse_task10.0 [Drop0.4_Epo1000]
+blue_cylinder_0.175_green_rub,6.18,5.75,5.63
+blue_cylinder_0.175_wood_rough,6.11,4.66,4.41
+blue_cylinder_0.175_wood_smooth,5.98,4.43,4.75
+blue_cylinder_0.376_green_rub,3.85,11.71,2.29
+blue_cylinder_0.376_wood_rough,4.0,4.1,1.42
+blue_cylinder_0.376_wood_smooth,5.5,4.98,1.59
+colored_cubes_0.167_green_rub,6.1,5.3,5.23
+colored_cubes_0.397_green_rub,6.94,8.36,7.33
+colored_cubes_0.989_green_rub,0.66,0.64,18.25
+colored_cubes_0.989_wood_rough,2.91,1.87,17.45
+colored_cubes_0.989_wood_smooth,1.72,1.44,17.0
+nolid_cube_0.390_green_rub,2.77,11.27,7.45
+nolid_cube_0.498_green_rub,5.39,3.64,2.45
+nolid_cube_0.598_green_rub,0.3,0.83,0.14
+nolid_cube_0.694_green_rub,3.85,2.67,2.47
+nolid_cube_0.798_green_rub,0.48,3.96,9.46
+nolid_cube_0.915_green_rub,1.19,1.63,15.69
+nolid_cube_1.123_green_rub,16.79,21.79,28.94
+nolid_cube_1.240_green_rub,18.13,24.45,33.46
+nolid_cube_1.456_green_rub,46.95,45.16,47.19
+nolid_cube_1.656_green_rub,41.96,44.64,58.51
+nolid_cube_1.856_green_rub,53.09,54.59,70.18
+wooden_cube_0.348_green_rub,2.71,2.9,3.42
+wooden_cube_0.570_green_rub,0.79,0.19,0.58
