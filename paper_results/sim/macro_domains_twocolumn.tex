@@ -1,15 +1,15 @@
 \begin{table*}[t]
     \centering
-    \caption{Performance Comparison (NRMSE $\pm$ STD \%) Across Generalized Domains (Two-Column)}
+    \caption{Performance Comparison (NRMSE $\pm$ STD \%) Across All Domains (Two-Column)}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
     \begin{tabular}{l c c c c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{Force Input Required?}} & \multicolumn{2}{c}{\textbf{Seen}} & \multicolumn{2}{c}{\textbf{Unseen $m$}} & \multicolumn{2}{c}{\textbf{Unseen $\mu$}} & \multicolumn{2}{c}{\textbf{Unseen $m$ \& $\mu$}} \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{\textbf{Seen}} & \multicolumn{2}{c}{\textbf{Unseen $m$}} & \multicolumn{2}{c}{\textbf{Unseen $\mu$}} & \multicolumn{2}{c}{\textbf{Unseen $m$ \& $\mu$}} \\
         \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
         & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
         \midrule
-        PhyPush (data loss) & No & 9.54 $\pm$ 4.43 & 27.50 $\pm$ 15.52 & 23.95 $\pm$ 8.56 & 25.86 $\pm$ 13.87 & 10.17 $\pm$ 4.56 & 37.22 $\pm$ 12.59 & 24.28 $\pm$ 8.41 & 38.92 $\pm$ 7.79 \\
+        PhyPush (Data loss) & No & 9.54 $\pm$ 4.43 & 27.50 $\pm$ 15.52 & 23.95 $\pm$ 8.56 & 25.86 $\pm$ 13.87 & 10.17 $\pm$ 4.56 & 37.22 $\pm$ 12.59 & 24.28 $\pm$ 8.41 & 38.92 $\pm$ 7.79 \\
         PhyPush (PG loss 1) & No & 7.88 $\pm$ 3.95 & 21.10 $\pm$ 12.27 & 22.43 $\pm$ 8.58 & 32.05 $\pm$ 13.71 & 7.97 $\pm$ 3.67 & 32.11 $\pm$ 15.26 & 22.21 $\pm$ 8.61 & 39.15 $\pm$ 6.15 \\
         PhyPush (PG loss 2) & No & \textbf{3.36} $\pm$ 2.19 & \textbf{12.97} $\pm$ 7.97 & 25.04 $\pm$ 9.21 & 18.02 $\pm$ 9.85 & \textbf{4.75} $\pm$ 2.75 & \textbf{32.08} $\pm$ 13.06 & 24.91 $\pm$ 9.22 & 35.45 $\pm$ 7.81 \\
         PhyPush (PG loss 3) & No & 7.62 $\pm$ 4.05 & 20.70 $\pm$ 11.98 & 22.20 $\pm$ 8.58 & 31.12 $\pm$ 13.47 & 7.72 $\pm$ 3.74 & 33.17 $\pm$ 15.87 & 22.03 $\pm$ 8.58 & 39.00 $\pm$ 6.09 \\

@@ -1,0 +1,4 @@
+Model,Mass (Seen),Mass (Unseen),Fric (Seen),Fric (Unseen)
+Only $m$,10.27 ± 5.94,22.45 ± 8.35,N/A,N/A
+Only $\mu$,N/A,N/A,13.97 ± 9.33,30.91 ± 10.91
+PhyPush (PG loss 2),3.36 ± 2.19,19.91 ± 7.60,12.97 ± 7.97,30.25 ± 9.63
