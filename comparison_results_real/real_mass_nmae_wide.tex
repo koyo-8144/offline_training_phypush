@@ -1,37 +1,56 @@
 \begin{table}[H]
     \centering
-    \caption{Mass Error Global Scale (nMAE \%)}
+    \caption{Avg Mass Error Global Scale (nMAE \%)}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
     \begin{tabular}{l ccc}
         \toprule
-        \textbf{Domain} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{data\_tcri-log1p\_mse\_task10.0 [Drop0.4\_Epo1000]} \\
+        \textbf{Domain} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo200\_rampd700\_pcri-L1\_p5c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0\_p2-2c5.0 [FS10\_Drop0.4\_Epo1000]} \\
          &  &  &  \\
         \midrule
-        blue\_cylinder\_0.175\_green\_rub & 5.47 & 5.08 & \textbf{4.98} \\
-        blue\_cylinder\_0.175\_wood\_rough & 5.40 & 4.13 & \textbf{3.90} \\
-        blue\_cylinder\_0.175\_wood\_smooth & 5.29 & \textbf{3.92} & 4.20 \\
-        blue\_cylinder\_0.376\_green\_rub & 3.40 & 10.36 & \textbf{2.03} \\
-        blue\_cylinder\_0.376\_wood\_rough & 3.54 & 3.63 & \textbf{1.26} \\
-        blue\_cylinder\_0.376\_wood\_smooth & 4.86 & 4.40 & \textbf{1.40} \\
-        colored\_cubes\_0.167\_green\_rub & 5.39 & 4.69 & \textbf{4.63} \\
-        colored\_cubes\_0.397\_green\_rub & \textbf{6.14} & 7.39 & 6.48 \\
-        colored\_cubes\_0.989\_green\_rub & 0.59 & \textbf{0.57} & 16.14 \\
-        colored\_cubes\_0.989\_wood\_rough & 2.57 & \textbf{1.65} & 15.44 \\
-        colored\_cubes\_0.989\_wood\_smooth & 1.52 & \textbf{1.27} & 15.04 \\
-        nolid\_cube\_0.390\_green\_rub & \textbf{2.45} & 9.97 & 6.59 \\
-        nolid\_cube\_0.498\_green\_rub & 4.77 & 3.22 & \textbf{2.17} \\
-        nolid\_cube\_0.598\_green\_rub & 0.27 & 0.73 & \textbf{0.12} \\
-        nolid\_cube\_0.694\_green\_rub & 3.41 & 2.36 & \textbf{2.19} \\
-        nolid\_cube\_0.798\_green\_rub & \textbf{0.43} & 3.51 & 8.37 \\
-        nolid\_cube\_0.915\_green\_rub & \textbf{1.05} & 1.44 & 13.88 \\
-        nolid\_cube\_1.123\_green\_rub & \textbf{14.85} & 19.28 & 25.60 \\
-        nolid\_cube\_1.240\_green\_rub & \textbf{16.04} & 21.63 & 29.61 \\
-        nolid\_cube\_1.456\_green\_rub & 41.54 & \textbf{39.95} & 41.75 \\
-        nolid\_cube\_1.656\_green\_rub & \textbf{37.13} & 39.49 & 51.76 \\
-        nolid\_cube\_1.856\_green\_rub & \textbf{46.97} & 48.30 & 62.09 \\
-        wooden\_cube\_0.348\_green\_rub & \textbf{2.40} & 2.57 & 3.03 \\
-        wooden\_cube\_0.570\_green\_rub & 0.70 & \textbf{0.17} & 0.52 \\
+        blue\_cylinder\_0.175\_green\_rub & \textbf{10.63} & 13.32 & 24.18 \\
+        blue\_cylinder\_0.175\_wood\_rough & \textbf{8.47} & 8.65 & 21.96 \\
+        blue\_cylinder\_0.175\_wood\_smooth & \textbf{7.78} & 10.31 & 22.69 \\
+        blue\_cylinder\_0.376\_green\_rub & \textbf{2.85} & 16.88 & 17.61 \\
+        blue\_cylinder\_0.376\_wood\_rough & \textbf{2.29} & 10.72 & 13.51 \\
+        blue\_cylinder\_0.376\_wood\_smooth & \textbf{2.59} & 13.64 & 15.06 \\
+        colored\_cubes\_0.167\_green\_rub & \textbf{9.49} & 14.53 & 27.90 \\
+        colored\_cubes\_0.397\_green\_rub & \textbf{5.19} & 24.59 & 13.75 \\
+        colored\_cubes\_0.989\_green\_rub & 19.74 & \textbf{5.68} & 16.24 \\
+        colored\_cubes\_0.989\_wood\_rough & 22.40 & \textbf{1.46} & 17.48 \\
+        colored\_cubes\_0.989\_wood\_smooth & 17.91 & \textbf{4.43} & 16.33 \\
+        nolid\_cube\_0.390\_green\_rub & \textbf{3.24} & 27.81 & 13.21 \\
+        nolid\_cube\_0.390\_wood\_rough & \textbf{3.78} & 27.07 & 16.67 \\
+        nolid\_cube\_0.390\_wood\_smooth & \textbf{3.47} & 20.76 & 15.22 \\
+        nolid\_cube\_0.498\_green\_rub & \textbf{8.40} & 17.42 & 8.99 \\
+        nolid\_cube\_0.498\_wood\_rough & \textbf{6.87} & 17.91 & 10.51 \\
+        nolid\_cube\_0.498\_wood\_smooth & \textbf{7.32} & 17.66 & 9.09 \\
+        nolid\_cube\_0.598\_green\_rub & 12.73 & 11.36 & \textbf{4.74} \\
+        nolid\_cube\_0.598\_wood\_rough & 11.79 & 17.03 & \textbf{3.10} \\
+        nolid\_cube\_0.598\_wood\_smooth & 13.54 & 14.81 & \textbf{3.53} \\
+        nolid\_cube\_0.694\_green\_rub & 16.04 & 11.82 & \textbf{2.20} \\
+        nolid\_cube\_0.694\_wood\_rough & 14.70 & 14.17 & \textbf{1.89} \\
+        nolid\_cube\_0.694\_wood\_smooth & 18.31 & 15.11 & \textbf{3.76} \\
+        nolid\_cube\_0.798\_green\_rub & 14.63 & \textbf{7.03} & 7.32 \\
+        nolid\_cube\_0.798\_wood\_rough & 20.13 & 9.90 & \textbf{6.72} \\
+        nolid\_cube\_0.798\_wood\_smooth & 22.19 & 8.73 & \textbf{7.58} \\
+        nolid\_cube\_0.915\_green\_rub & 21.79 & \textbf{5.43} & 13.19 \\
+        nolid\_cube\_0.915\_wood\_rough & 25.96 & \textbf{2.68} & 13.68 \\
+        nolid\_cube\_0.915\_wood\_smooth & 20.89 & \textbf{2.55} & 13.59 \\
+        nolid\_cube\_1.123\_green\_rub & 27.16 & \textbf{16.44} & 22.76 \\
+        nolid\_cube\_1.123\_wood\_rough & 29.19 & \textbf{12.68} & 22.93 \\
+        nolid\_cube\_1.123\_wood\_smooth & 26.87 & \textbf{9.16} & 24.48 \\
+        nolid\_cube\_1.240\_green\_rub & 32.15 & \textbf{24.03} & 25.96 \\
+        nolid\_cube\_1.240\_wood\_smooth & 35.10 & \textbf{15.81} & 30.64 \\
+        nolid\_cube\_1.456\_green\_rub & 43.94 & 38.94 & \textbf{36.53} \\
+        nolid\_cube\_1.656\_green\_rub & 48.59 & 49.98 & \textbf{45.21} \\
+        nolid\_cube\_1.856\_green\_rub & \textbf{56.26} & 56.86 & 57.40 \\
+        wooden\_cube\_0.348\_green\_rub & \textbf{2.56} & 21.81 & 18.54 \\
+        wooden\_cube\_0.348\_wood\_rough & \textbf{1.56} & 12.05 & 16.58 \\
+        wooden\_cube\_0.348\_wood\_smooth & \textbf{0.98} & 21.54 & 20.76 \\
+        wooden\_cube\_0.570\_green\_rub & 11.43 & 11.97 & \textbf{5.57} \\
+        wooden\_cube\_0.570\_wood\_rough & 10.41 & 16.19 & \textbf{5.12} \\
+        wooden\_cube\_0.570\_wood\_smooth & 10.29 & 15.87 & \textbf{5.20} \\
         \bottomrule
     \end{tabular}
     }
