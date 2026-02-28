@@ -1,0 +1,10 @@
+domain,pinn_pcri-L1_p5c10.0 [Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [MS10_Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p2-2c5.0 [Drop0.4_Epo1000],data_tcri-log1p_mse_task10.0 [Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000]
+m_seen_mu_seen,3.95,2.19,4.05,4.43,4.53
+m_over,14.46,15.42,14.35,14.43,14.16
+m_under,2.69,2.99,2.81,2.7,2.98
+mu_over,3.6,2.91,3.56,4.02,5.91
+mu_under,3.73,2.59,3.91,5.1,3.71
+m_over_mu_over,14.35,15.0,14.36,14.86,14.4
+m_under_mu_under,2.72,2.94,2.84,2.73,2.96
+m_over_mu_under,14.74,16.01,14.37,13.45,13.57
+m_under_mu_over,2.64,2.93,2.77,2.62,3.7

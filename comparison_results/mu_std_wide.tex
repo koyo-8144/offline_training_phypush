@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \caption{Fric Coeff Error (STD \%)}
+    \vspace{2mm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{l ccccc}
+        \toprule
+        \textbf{Domain} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0\_p2-2c5.0 [Drop0.4\_Epo1000]} & \textbf{data\_tcri-log1p\_mse\_task10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} \\
+         &  &  &  &  &  \\
+        \midrule
+        m\_seen\_mu\_seen & \textbf{7.97} & 12.27 & 11.98 & 15.52 & 11.00 \\
+        m\_over & \textbf{7.19} & 13.31 & 12.83 & 15.98 & 10.73 \\
+        m\_under & 12.50 & 14.11 & 14.12 & 11.76 & \textbf{8.04} \\
+        mu\_over & 12.42 & 13.97 & 14.09 & \textbf{11.49} & 19.61 \\
+        mu\_under & 13.70 & 16.55 & 17.64 & \textbf{13.69} & 15.53 \\
+        m\_over\_mu\_over & 7.04 & \textbf{6.85} & 6.89 & 7.56 & 13.24 \\
+        m\_under\_mu\_under & 6.89 & 3.81 & \textbf{3.63} & 6.96 & 6.65 \\
+        m\_over\_mu\_under & 8.72 & 7.05 & \textbf{7.01} & 7.39 & 12.92 \\
+        m\_under\_mu\_over & 8.59 & 6.91 & \textbf{6.83} & 9.26 & 12.44 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

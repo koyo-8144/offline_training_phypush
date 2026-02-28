@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \caption{Net Force Consistency (R2)}
+    \vspace{2mm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{l cccccccccccccccccccc}
+        \toprule
+        \textbf{Domain} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [FS10\_MS0\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0\_p2-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS10\_FS0\_Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p5c10.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo200\_rampd700\_pcri-L1\_p5c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} & \textbf{hybrid\_tcri-log1p\_mse\_task10.0\_pcri-L1\_p10c0.05 [Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{data\_tcri-log1p\_mse\_task10.0 [Drop0.4\_Epo1000]} & \textbf{hybrid\_tcri-log1p\_mse\_task10.0\_pcri-L1\_p10c1.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p10c10.0\_p9-2c5.0 [MS10\_Drop0.4\_Epo1000]} & \textbf{hybrid\_tcri-log1p\_mse\_task10.0\_pcri-L1\_p10c10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p5c10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo300\_rampd600\_pcri-L1\_p5c10.0\_p2-2c5.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_pcri-L1\_p10c10.0 [Drop0.4\_Epo1000]} & \textbf{pinn\_annstartepo400\_rampd800\_pcri-L1\_p5c10.0\_p9-2c5.0 [FS10\_Drop0.4\_Epo1000]} \\
+         &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+        \midrule
+        m\_seen\_mu\_seen & 0.39 & -1.60 & 0.63 & 0.29 & 0.24 & 0.47 & 0.28 & -0.24 & -0.92 & -0.43 & -0.66 & -2.92 & -0.62 & -0.62 & \textbf{-5.34} & -0.93 & -0.93 & -0.88 & -0.03 & -0.26 \\
+        m\_over & -0.13 & -0.59 & -8.13 & -13.16 & -8.69 & -25.41 & -10.22 & -119.49 & -32.31 & -3.43 & -1.58 & -1.30 & -221.85 & -221.85 & \textbf{-7162.75} & -30.61 & -30.61 & -18.12 & -141.23 & -141.15 \\
+        m\_under & 0.01 & -0.50 & -0.25 & -0.34 & -0.56 & -0.42 & -0.52 & -1.10 & -32.33 & -142.64 & -177.34 & -1316.67 & -52.08 & -52.08 & -28.37 & -3060.28 & -3060.28 & \textbf{-6984.97} & -4221.85 & -0.56 \\
+        mu\_over & 0.05 & -0.95 & -0.02 & 0.13 & -0.48 & 0.17 & 0.24 & -0.99 & -1.48 & -0.37 & -0.59 & -4.85 & -1.19 & -1.19 & \textbf{-6.95} & -0.79 & -0.79 & -0.83 & 0.38 & -0.80 \\
+        mu\_under & -1.94 & -7.94 & 0.58 & -0.11 & -1.20 & -1.05 & -0.33 & 0.27 & -1.93 & -0.37 & -0.85 & -2.78 & 0.03 & 0.03 & -2.81 & -1.20 & -1.20 & -1.24 & -2.84 & \textbf{-8.14} \\
+        m\_over\_mu\_over & -0.48 & -1.16 & -6.89 & -7.18 & -7.70 & -19.61 & -202.78 & -109.95 & -51.55 & -18.20 & -0.09 & -0.74 & -7091.76 & -7091.76 & -6927.19 & -22.42 & -22.42 & -17.14 & -1256.66 & \textbf{-173645.69} \\
+        m\_under\_mu\_under & 0.42 & -0.18 & -2.41 & -1.25 & -9.23 & -0.46 & -0.42 & -7.25 & -102.85 & -341.57 & -398.62 & -1447.47 & -117.25 & -117.25 & -114.29 & -36250.55 & -36250.55 & -45748.41 & \textbf{-74553.66} & -2.06 \\
+        m\_over\_mu\_under & 0.26 & -1.26 & -5.31 & -0.93 & -6.18 & -1.37 & -0.86 & -25.11 & -33.62 & 0.15 & -6.14 & 0.13 & -27.89 & -27.89 & \textbf{-2590.39} & -69.02 & -69.02 & -40.30 & -10.13 & -3.02 \\
+        m\_under\_mu\_over & -0.70 & -0.83 & 0.23 & -0.01 & -0.16 & -0.33 & -1.62 & -0.38 & -23.31 & -41.22 & -101.37 & -1220.96 & -15.95 & -15.95 & -9.19 & -1262.94 & -1262.94 & \textbf{-6012.51} & -5168.90 & -0.47 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
