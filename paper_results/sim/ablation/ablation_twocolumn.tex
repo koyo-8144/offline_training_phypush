@@ -1,6 +1,6 @@
 \begin{table*}[t]
     \centering
-    \caption{Ablation Study: Performance (NRMSE $\pm$ STD \%)}
+    \caption{Ablation Study: Performance (NRMSE $\pm$ STD (Bias) \%)}
     \vspace{2mm}
     \resizebox{0.8\textwidth}{!}{
     \begin{tabular}{l c c c c}
@@ -9,9 +9,9 @@
         \cmidrule(lr){2-3} \cmidrule(lr){4-5}
         & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ \& $\mathcal{D}_{OOD}^{\mu}$ \& $\mathcal{D}_{OOD}^{m, \mu}$} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ \& $\mathcal{D}_{OOD}^{\mu}$ \& $\mathcal{D}_{OOD}^{m, \mu}$} \\
         \midrule
-        Only $m$ & 10.27 $\pm$ 5.94 & 22.45 $\pm$ 8.35 & N/A & N/A \\
-        Only $\mu$ & N/A & N/A & 13.97 $\pm$ 9.33 & 30.91 $\pm$ 10.91 \\
-        $\mathcal{L}_{\text{acc}}$ & \textbf{3.36} $\pm$ 2.19 & \textbf{19.91} $\pm$ 7.60 & \textbf{12.97} $\pm$ 7.97 & \textbf{30.25} $\pm$ 9.63 \\
+        Only $m$ & 10.27 $\pm$ 5.94 (+8.04) & 22.45 $\pm$ 8.35 (-3.14) & N/A & N/A \\
+        Only $\mu$ & N/A & N/A & 13.97 $\pm$ 9.33 (N/A) & 30.91 $\pm$ 10.91 (N/A) \\
+        $\mathcal{L}_{\text{acc}}$ & \textbf{3.36} $\pm$ 2.19 (N/A) & \textbf{19.91} $\pm$ 7.60 (N/A) & \textbf{12.97} $\pm$ 7.97 (N/A) & \textbf{30.25} $\pm$ 9.63 (N/A) \\
         \bottomrule
     \end{tabular}
     }

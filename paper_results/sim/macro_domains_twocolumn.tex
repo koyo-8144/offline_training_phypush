@@ -1,19 +1,19 @@
 \begin{table*}[t]
     \centering
-    \caption{Performance Comparison (NRMSE $\pm$ STD \%) Across All Domains (Two-Column)}
+    \caption{Performance Comparison (NRMSE $\pm$ STD (Bias) \%) Across All Domains}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{l c c c c c c c c}
+    \begin{tabular}{l c c c c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} \\
-        \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9}
-        & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} \\
+        \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
+        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
         \midrule
-        $\mathcal{L}_{\text{data}}$ & 9.54 $\pm$ 4.43 & 27.50 $\pm$ 15.52 & 23.95 $\pm$ 8.56 & 25.86 $\pm$ 13.87 & 10.17 $\pm$ 4.56 & 37.22 $\pm$ 12.59 & 24.28 $\pm$ 8.41 & 38.92 $\pm$ 7.79 \\
-        $\mathcal{L}_{\text{force}}$ & 7.88 $\pm$ 3.95 & 21.10 $\pm$ 12.27 & 22.43 $\pm$ 8.58 & 32.05 $\pm$ 13.71 & 7.97 $\pm$ 3.67 & 32.11 $\pm$ 15.26 & 22.21 $\pm$ 8.61 & 39.15 $\pm$ 6.15 \\
-        $\mathcal{L}_{\text{acc}}$ & \textbf{3.36} $\pm$ 2.19 & \textbf{12.97} $\pm$ 7.97 & 25.04 $\pm$ 9.21 & 18.02 $\pm$ 9.85 & \textbf{4.75} $\pm$ 2.75 & \textbf{32.08} $\pm$ 13.06 & 24.91 $\pm$ 9.22 & 35.45 $\pm$ 7.81 \\
-        $\mathcal{L}_{\text{force, un}}$ & 7.62 $\pm$ 4.05 & 20.70 $\pm$ 11.98 & 22.20 $\pm$ 8.58 & 31.12 $\pm$ 13.47 & 7.72 $\pm$ 3.74 & 33.17 $\pm$ 15.87 & 22.03 $\pm$ 8.58 & 39.00 $\pm$ 6.09 \\
-        $\mathcal{L}_{\text{acc, un}}$ & 7.86 $\pm$ 4.53 & 20.27 $\pm$ 11.00 & \textbf{17.77} $\pm$ 8.57 & \textbf{16.91} $\pm$ 9.38 & 8.58 $\pm$ 4.81 & 35.95 $\pm$ 17.57 & \textbf{17.95} $\pm$ 8.66 & \textbf{35.02} $\pm$ 11.31 \\
+        PhyPush $\mathcal{L}_{\text{data}}$ & No & 9.54 $\pm$ 4.43 (-8.44) & 27.50 $\pm$ 15.52 (+19.67) & 23.95 $\pm$ 8.56 (-18.59) & 25.86 $\pm$ 13.87 (+6.18) & 10.17 $\pm$ 4.56 (-9.03) & 37.22 $\pm$ 12.59 (+18.37) & 24.28 $\pm$ 8.41 (-19.05) & 38.92 $\pm$ 7.79 (+6.32) \\
+        PhyPush $\mathcal{L}_{\text{force}}$ & No & 7.88 $\pm$ 3.95 (N/A) & 21.10 $\pm$ 12.27 (N/A) & 22.43 $\pm$ 8.58 (N/A) & 32.05 $\pm$ 13.71 (N/A) & 7.97 $\pm$ 3.67 (N/A) & 32.11 $\pm$ 15.26 (N/A) & 22.21 $\pm$ 8.61 (N/A) & 39.15 $\pm$ 6.15 (N/A) \\
+        PhyPush $\mathcal{L}_{\text{acc}}$ & No & \textbf{3.36} $\pm$ 2.19 (N/A) & \textbf{12.97} $\pm$ 7.97 (N/A) & 25.04 $\pm$ 9.21 (N/A) & 18.02 $\pm$ 9.85 (N/A) & \textbf{4.75} $\pm$ 2.75 (N/A) & \textbf{32.08} $\pm$ 13.06 (N/A) & 24.91 $\pm$ 9.22 (N/A) & 35.45 $\pm$ 7.81 (N/A) \\
+        PhyPush $\mathcal{L}_{\text{force, un}}$ & No & 7.62 $\pm$ 4.05 (-6.40) & 20.70 $\pm$ 11.98 (-4.06) & 22.20 $\pm$ 8.58 (-16.42) & 31.12 $\pm$ 13.47 (-10.15) & 7.72 $\pm$ 3.74 (-6.59) & 33.17 $\pm$ 15.87 (-5.50) & 22.03 $\pm$ 8.58 (-16.29) & 39.00 $\pm$ 6.09 (-9.67) \\
+        PhyPush $\mathcal{L}_{\text{acc, un}}$ & No & 7.86 $\pm$ 4.53 (N/A) & 20.27 $\pm$ 11.00 (N/A) & \textbf{17.77} $\pm$ 8.57 (N/A) & \textbf{16.91} $\pm$ 9.38 (N/A) & 8.58 $\pm$ 4.81 (N/A) & 35.95 $\pm$ 17.57 (N/A) & \textbf{17.95} $\pm$ 8.66 (N/A) & \textbf{35.02} $\pm$ 11.31 (N/A) \\
         \bottomrule
     \end{tabular}
     }
