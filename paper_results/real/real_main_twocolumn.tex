@@ -1,0 +1,20 @@
+\begin{table*}[t]
+    \centering
+    \caption{Real-World Performance Comparison (Avg $\pm$ STD (Best) \%) on Seen vs. Unseen Objects}
+    \vspace{2mm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{l c c c c c}
+        \toprule
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{\textbf{Seen}} & \multicolumn{2}{c}{\textbf{Unseen}} \\
+        \cmidrule(lr){3-4} \cmidrule(lr){5-6}
+        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \midrule
+        PhyPush (Data loss) & No & \textbf{8.92} $\pm$ 2.41 (5.25) & 20.47 $\pm$ 6.57 (22.55) & \textbf{23.09} $\pm$ 2.31 (19.39) & 42.18 $\pm$ 6.97 (42.81) \\
+        PhyPush (PG loss 1) & No & 15.15 $\pm$ 2.00 (11.04) & 22.56 $\pm$ 10.12 (16.46) & 28.26 $\pm$ 2.39 (24.54) & 31.62 $\pm$ 12.53 (25.67) \\
+        PhyPush (PG loss 2) & No & 14.19 $\pm$ 3.73 (6.89) & 17.02 $\pm$ 4.22 (15.86) & 23.86 $\pm$ 3.92 (17.88) & 39.21 $\pm$ 6.12 (35.12) \\
+        PhyPush (PG loss 3) & No & 14.39 $\pm$ 2.32 (10.37) & 21.56 $\pm$ 9.82 (18.50) & 27.54 $\pm$ 2.46 (23.75) & \textbf{28.84} $\pm$ 11.10 (21.68) \\
+        PhyPush (PG loss 4) & No & 12.62 $\pm$ 6.25 (2.08) & \textbf{17.01} $\pm$ 9.64 (15.76) & 26.87 $\pm$ 6.86 (14.21) & 31.38 $\pm$ 10.79 (30.59) \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table*}

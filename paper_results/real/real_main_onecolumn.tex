@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Real-World Performance Comparison (Avg $\pm$ STD (Best) \%) on Seen vs. Unseen Objects}
+    \vspace{2mm}
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{l c c c c}
+        \toprule
+        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & \textbf{Seen} & \textbf{Unseen} \\
+        \midrule
+        \multirow{2}{*}{PhyPush (Data loss)} & \multirow{2}{*}{No} & $m$ & \textbf{8.9}$\pm$2.4(5.3) & \textbf{23.1}$\pm$2.3(19.4) \\
+        \cmidrule(lr){3-5}
+         &  & $\mu$ & 20.5$\pm$6.6(22.6) & 42.2$\pm$7.0(42.8) \\
+        \midrule
+        \multirow{2}{*}{PhyPush (PG loss 1)} & \multirow{2}{*}{No} & $m$ & 15.1$\pm$2.0(11.0) & 28.3$\pm$2.4(24.5) \\
+        \cmidrule(lr){3-5}
+         &  & $\mu$ & 22.6$\pm$10.1(16.5) & 31.6$\pm$12.5(25.7) \\
+        \midrule
+        \multirow{2}{*}{PhyPush (PG loss 2)} & \multirow{2}{*}{No} & $m$ & 14.2$\pm$3.7(6.9) & 23.9$\pm$3.9(17.9) \\
+        \cmidrule(lr){3-5}
+         &  & $\mu$ & 17.0$\pm$4.2(15.9) & 39.2$\pm$6.1(35.1) \\
+        \midrule
+        \multirow{2}{*}{PhyPush (PG loss 3)} & \multirow{2}{*}{No} & $m$ & 14.4$\pm$2.3(10.4) & 27.5$\pm$2.5(23.8) \\
+        \cmidrule(lr){3-5}
+         &  & $\mu$ & 21.6$\pm$9.8(18.5) & \textbf{28.8}$\pm$11.1(21.7) \\
+        \midrule
+        \multirow{2}{*}{PhyPush (PG loss 4)} & \multirow{2}{*}{No} & $m$ & 12.6$\pm$6.2(2.1) & 26.9$\pm$6.9(14.2) \\
+        \cmidrule(lr){3-5}
+         &  & $\mu$ & \textbf{17.0}$\pm$9.6(15.8) & 31.4$\pm$10.8(30.6) \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}
