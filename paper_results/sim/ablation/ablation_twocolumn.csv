@@ -1,4 +1,4 @@
 Model,Mass ($\mathcal{D}_{test}$),"Mass ({\scriptsize $\mathcal{D}_{OOD}^m$ \& $\mathcal{D}_{OOD}^{\mu}$ \& $\mathcal{D}_{OOD}^{m, \mu}$})",Fric ($\mathcal{D}_{test}$),"Fric ({\scriptsize $\mathcal{D}_{OOD}^m$ \& $\mathcal{D}_{OOD}^{\mu}$ \& $\mathcal{D}_{OOD}^{m, \mu}$})"
 Only $m$,10.27 ± 5.94 (+8.04),22.45 ± 8.35 (-3.14),N/A,N/A
 Only $\mu$,N/A,N/A,13.97 ± 9.33 (N/A),30.91 ± 10.91 (N/A)
-$\mathcal{L}_{\text{acc}}$,3.36 ± 2.19 (N/A),19.91 ± 7.60 (N/A),12.97 ± 7.97 (N/A),30.25 ± 9.63 (N/A)
+$\mathcal{L}_{\text{acc}}$,3.36 ± 2.19 (-0.42),19.91 ± 7.60 (-8.92),12.97 ± 7.97 (-0.20),30.25 ± 9.63 (-7.28)

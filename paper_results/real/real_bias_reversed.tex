@@ -3,70 +3,70 @@
     \caption{Real-World Performance Comparison (Top-5 Estimation Bias) by Object}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{l l c c c c c c c }
+    \begin{tabular}{l l c c c c c c c c c c }
         \toprule
-        \multirow{2}{*}{\textbf{Object}} & \multirow{2}{*}{\textbf{Surface}} & \multirow{2}{*}{\textbf{GT ($m$ / $\mu$)}} & \multicolumn{2}{c}{\textbf{PhyPush (Data loss)}} & \multicolumn{2}{c}{\textbf{PhyPush ($m$ best)}} & \multicolumn{2}{c}{\textbf{PhyPush ($\mu$ best)}} \\
-        \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} 
-        & & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \multirow{2}{*}{\textbf{Object}} & \multirow{2}{*}{\textbf{Surface}} & \multirow{2}{*}{\textbf{GT ($m$ / $\mu$ / $F_{\text{fric}}$)}} & \multicolumn{3}{c}{\textbf{PhyPush (Data loss)}} & \multicolumn{3}{c}{\textbf{PhyPush ($m$ best)}} & \multicolumn{3}{c}{\textbf{PhyPush ($\mu$ best)}} \\
+        \cmidrule(lr){4-6} \cmidrule(lr){7-9} \cmidrule(lr){10-12} 
+        & & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$F_{\text{fric}}$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$F_{\text{fric}}$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$F_{\text{fric}}$} \\
         \midrule
-        \multicolumn{9}{l}{\textbf{Seen Domains}} \\
+        \multicolumn{12}{l}{\textbf{Seen Domains}} \\
         \midrule
-        Pla Cube & Green Rub & 0.390 / 0.4334 & +0.130 & \textbf{+0.009} & +0.202 & +0.209 & \textbf{-0.050} & +0.028 \\
-        Pla Cube & Green Rub & 0.498 / 0.4334 & \textbf{+0.023} & \textbf{+0.009} & +0.074 & +0.208 & -0.058 & -0.030 \\
-        Pla Cube & Green Rub & 0.598 / 0.4334 & \textbf{-0.011} & \textbf{-0.001} & -0.034 & +0.207 & -0.124 & -0.026 \\
-        Pla Cube & Green Rub & 0.694 / 0.4334 & \textbf{-0.080} & \textbf{+0.016} & -0.090 & +0.207 & -0.219 & -0.058 \\
-        Pla Cube & Green Rub & 0.798 / 0.4334 & -0.172 & \textbf{+0.019} & \textbf{+0.079} & +0.209 & -0.327 & -0.022 \\
-        Pla Cube & Green Rub & 0.915 / 0.4334 & -0.297 & \textbf{+0.026} & \textbf{+0.026} & +0.208 & -0.417 & -0.080 \\
-        Pla Cube & Wood Sm & 0.390 / 0.3421 & \textbf{-0.021} & +0.043 & +0.206 & +0.299 & -0.057 & \textbf{-0.032} \\
-        Pla Cube & Wood Sm & 0.498 / 0.3421 & \textbf{+0.034} & +0.102 & +0.104 & +0.298 & -0.106 & \textbf{-0.027} \\
-        Pla Cube & Wood Sm & 0.598 / 0.3421 & \textbf{-0.011} & +0.092 & -0.020 & +0.299 & -0.222 & \textbf{-0.022} \\
-        Pla Cube & Wood Sm & 0.694 / 0.3421 & -0.086 & +0.074 & \textbf{-0.081} & +0.298 & -0.318 & \textbf{-0.005} \\
-        Pla Cube & Wood Sm & 0.798 / 0.3421 & -0.162 & +0.118 & \textbf{+0.122} & +0.301 & -0.390 & \textbf{-0.013} \\
-        Pla Cube & Wood Sm & 0.915 / 0.3421 & -0.270 & +0.122 & \textbf{+0.015} & +0.301 & -0.463 & \textbf{-0.005} \\
+        Pla Cube & Green Rub & 0.390 / 0.4334 / 1.66 & +0.130 & \textbf{+0.009} & +0.580 & +0.202 & +0.209 & +2.076 & \textbf{-0.050} & +0.028 & \textbf{-0.214} \\
+        Pla Cube & Green Rub & 0.498 / 0.4334 / 2.12 & \textbf{+0.023} & \textbf{+0.009} & \textbf{-0.220} & +0.074 & +0.208 & +1.485 & -0.058 & -0.030 & -0.509 \\
+        Pla Cube & Green Rub & 0.598 / 0.4334 / 2.54 & \textbf{-0.011} & \textbf{-0.001} & \textbf{-0.007} & -0.034 & +0.207 & +0.968 & -0.124 & -0.026 & -0.862 \\
+        Pla Cube & Green Rub & 0.694 / 0.4334 / 2.95 & \textbf{-0.080} & \textbf{+0.016} & \textbf{-0.158} & -0.090 & +0.207 & +0.469 & -0.219 & -0.058 & -1.336 \\
+        Pla Cube & Green Rub & 0.798 / 0.4334 / 3.39 & -0.172 & \textbf{+0.019} & \textbf{-0.454} & \textbf{+0.079} & +0.209 & +0.746 & -0.327 & -0.022 & -1.801 \\
+        Pla Cube & Green Rub & 0.915 / 0.4334 / 3.89 & -0.297 & \textbf{+0.026} & -0.972 & \textbf{+0.026} & +0.208 & \textbf{-0.152} & -0.417 & -0.080 & -2.313 \\
+        Pla Cube & Wood Sm & 0.390 / 0.3421 / 1.31 & \textbf{-0.021} & +0.043 & +0.198 & +0.206 & +0.299 & +2.444 & -0.057 & \textbf{-0.032} & \textbf{-0.082} \\
+        Pla Cube & Wood Sm & 0.498 / 0.3421 / 1.67 & \textbf{+0.034} & +0.102 & +0.386 & +0.104 & +0.298 & +2.116 & -0.106 & \textbf{-0.027} & \textbf{-0.077} \\
+        Pla Cube & Wood Sm & 0.598 / 0.3421 / 2.01 & \textbf{-0.011} & +0.092 & \textbf{+0.377} & -0.020 & +0.299 & +1.549 & -0.222 & \textbf{-0.022} & -0.717 \\
+        Pla Cube & Wood Sm & 0.694 / 0.3421 / 2.33 & -0.086 & +0.074 & \textbf{+0.054} & \textbf{-0.081} & +0.298 & +1.032 & -0.318 & \textbf{-0.005} & -0.883 \\
+        Pla Cube & Wood Sm & 0.798 / 0.3421 / 2.68 & -0.162 & +0.118 & \textbf{+0.031} & \textbf{+0.122} & +0.301 & +2.749 & -0.390 & \textbf{-0.013} & -1.208 \\
+        Pla Cube & Wood Sm & 0.915 / 0.3421 / 3.07 & -0.270 & +0.122 & \textbf{+0.014} & \textbf{+0.015} & +0.301 & +1.232 & -0.463 & \textbf{-0.005} & -1.484 \\
         \midrule
-        \multicolumn{9}{l}{\textbf{Unseen Domains}} \\
+        \multicolumn{12}{l}{\textbf{Unseen Domains}} \\
         \midrule
-        Blue Cyl & Green Rub & 0.175 / 0.3654 & \textbf{+0.097} & \textbf{-0.005} & +0.372 & +0.273 & +0.102 & -0.079 \\
-        Blue Cyl & Green Rub & 0.376 / 0.3654 & +0.062 & +0.081 & +0.177 & +0.273 & \textbf{-0.044} & \textbf{-0.071} \\
-        Blue Cyl & Wood Rg & 0.175 / 0.3747 & \textbf{+0.086} & \textbf{-0.011} & +0.380 & +0.266 & +0.100 & -0.086 \\
-        Blue Cyl & Wood Rg & 0.376 / 0.3747 & \textbf{-0.028} & \textbf{+0.011} & +0.186 & +0.266 & -0.029 & -0.039 \\
-        Blue Cyl & Wood Sm & 0.175 / 0.2724 & \textbf{+0.085} & +0.098 & +0.383 & +0.368 & +0.105 & \textbf{-0.023} \\
-        Blue Cyl & Wood Sm & 0.376 / 0.2724 & \textbf{+0.028} & +0.105 & +0.178 & +0.367 & -0.032 & \textbf{-0.009} \\
-        Pla Cube & Green Rub & 1.123 / 0.4334 & -0.499 & \textbf{+0.028} & \textbf{-0.176} & +0.210 & -0.590 & -0.033 \\
-        Pla Cube & Green Rub & 1.240 / 0.4334 & -0.593 & +0.033 & \textbf{-0.296} & +0.211 & -0.703 & \textbf{-0.025} \\
-        Pla Cube & Green Rub & 1.456 / 0.4334 & -0.822 & \textbf{+0.024} & \textbf{-0.507} & +0.210 & -0.890 & -0.066 \\
-        Pla Cube & Green Rub & 1.656 / 0.4334 & -1.005 & +0.039 & \textbf{-0.712} & +0.210 & -1.082 & \textbf{+0.009} \\
-        Pla Cube & Green Rub & 1.856 / 0.4334 & -1.188 & +0.055 & \textbf{-0.912} & +0.211 & -1.275 & \textbf{-0.043} \\
-        Pla Cube & Wood Rg & 0.390 / 0.2550 & +0.121 & +0.191 & +0.414 & +0.388 & \textbf{-0.069} & \textbf{+0.087} \\
-        Pla Cube & Wood Rg & 0.498 / 0.2550 & +0.045 & +0.186 & \textbf{+0.042} & +0.385 & -0.110 & \textbf{+0.035} \\
-        Pla Cube & Wood Rg & 0.598 / 0.2550 & \textbf{+0.000} & +0.204 & +0.127 & +0.388 & -0.235 & \textbf{+0.052} \\
-        Pla Cube & Wood Rg & 0.694 / 0.2550 & \textbf{-0.074} & +0.196 & -0.097 & +0.388 & -0.259 & \textbf{+0.061} \\
-        Pla Cube & Wood Rg & 0.798 / 0.2550 & -0.157 & +0.207 & \textbf{+0.117} & +0.385 & -0.352 & \textbf{+0.047} \\
-        Pla Cube & Wood Rg & 0.915 / 0.2550 & -0.291 & +0.199 & \textbf{+0.031} & +0.388 & -0.499 & \textbf{+0.099} \\
-        Pla Cube & Wood Rg & 1.123 / 0.2550 & -0.491 & +0.210 & \textbf{-0.175} & +0.388 & -0.678 & \textbf{+0.104} \\
-        Pla Cube & Wood Rg & 1.240 / 0.2550 & -0.597 & +0.200 & \textbf{-0.296} & +0.389 & -0.721 & \textbf{+0.064} \\
-        Pla Cube & Wood Rg & 1.456 / 0.2550 & -0.810 & +0.209 & \textbf{-0.513} & +0.389 & -0.915 & \textbf{+0.076} \\
-        Pla Cube & Wood Rg & 1.656 / 0.2550 & -1.008 & +0.216 & \textbf{-0.712} & +0.389 & -1.159 & \textbf{+0.122} \\
-        Pla Cube & Wood Rg & 1.856 / 0.2550 & -1.199 & +0.209 & \textbf{-0.909} & +0.389 & -1.354 & \textbf{+0.129} \\
-        Pla Cube & Wood Sm & 1.123 / 0.3421 & -0.460 & +0.124 & \textbf{-0.175} & +0.302 & -0.734 & \textbf{+0.044} \\
-        Pla Cube & Wood Sm & 1.240 / 0.3421 & -0.606 & +0.123 & \textbf{-0.296} & +0.301 & -0.815 & \textbf{+0.020} \\
-        Pla Cube & Wood Sm & 1.456 / 0.3421 & -0.826 & +0.120 & \textbf{-0.509} & +0.301 & -0.912 & \textbf{-0.014} \\
-        Pla Cube & Wood Sm & 1.656 / 0.3421 & -1.013 & +0.122 & \textbf{-0.711} & +0.302 & -1.101 & \textbf{-0.003} \\
-        Pla Cube & Wood Sm & 1.856 / 0.3421 & -1.220 & +0.129 & \textbf{-0.908} & +0.302 & -1.302 & \textbf{-0.002} \\
-        Toy Cont & Green Rub & 0.167 / 0.2987 & \textbf{+0.098} & \textbf{+0.032} & +0.371 & +0.342 & +0.108 & -0.038 \\
-        Toy Cont & Green Rub & 0.397 / 0.2987 & +0.130 & +0.132 & +0.325 & +0.343 & \textbf{+0.003} & \textbf{+0.089} \\
-        Toy Cont & Green Rub & 0.989 / 0.2987 & -0.328 & +0.167 & \textbf{-0.041} & +0.345 & -0.414 & \textbf{+0.064} \\
-        Toy Cont & Wood Rg & 0.989 / 0.1799 & -0.312 & +0.290 & \textbf{-0.043} & +0.464 & -0.491 & \textbf{+0.180} \\
-        Toy Cont & Wood Sm & 0.989 / 0.1580 & -0.308 & +0.326 & \textbf{-0.042} & +0.486 & -0.581 & \textbf{+0.257} \\
-        Wood Cube Even & Green Rub & 0.348 / 0.4626 & +0.039 & \textbf{-0.000} & +0.214 & +0.178 & \textbf{-0.008} & -0.047 \\
-        Wood Cube Even & Wood Rg & 0.348 / 0.1826 & -0.069 & +0.165 & +0.269 & +0.459 & \textbf{-0.024} & \textbf{+0.098} \\
-        Wood Cube Even & Wood Sm & 0.348 / 0.2803 & -0.069 & +0.142 & +0.209 & +0.360 & \textbf{-0.018} & \textbf{-0.007} \\
-        Wood Cube & Green Rub & 0.348 / 0.3103 & +0.058 & +0.103 & +0.200 & +0.329 & \textbf{+0.003} & \textbf{-0.006} \\
-        Wood Cube & Green Rub & 0.570 / 0.3103 & +0.014 & +0.122 & \textbf{-0.009} & +0.329 & -0.124 & \textbf{-0.008} \\
-        Wood Cube & Wood Rg & 0.348 / 0.1621 & \textbf{-0.021} & +0.199 & +0.209 & +0.478 & -0.032 & \textbf{+0.094} \\
-        Wood Cube & Wood Rg & 0.570 / 0.1621 & \textbf{+0.022} & +0.260 & +0.057 & +0.481 & -0.195 & \textbf{+0.159} \\
-        Wood Cube & Wood Sm & 0.348 / 0.1802 & \textbf{+0.004} & +0.225 & +0.268 & +0.463 & -0.031 & \textbf{+0.089} \\
-        Wood Cube & Wood Sm & 0.570 / 0.1802 & +0.004 & +0.212 & \textbf{-0.001} & +0.461 & -0.225 & \textbf{+0.111} \\
+        Blue Cyl & Green Rub & 0.175 / 0.3654 / 0.63 & \textbf{+0.097} & \textbf{-0.005} & +0.332 & +0.372 & +0.273 & +2.797 & +0.102 & -0.079 & \textbf{+0.061} \\
+        Blue Cyl & Green Rub & 0.376 / 0.3654 / 1.35 & +0.062 & +0.081 & +0.580 & +0.177 & +0.273 & +2.116 & \textbf{-0.044} & \textbf{-0.071} & \textbf{-0.183} \\
+        Blue Cyl & Wood Rg & 0.175 / 0.3747 / 0.64 & \textbf{+0.086} & \textbf{-0.011} & +0.233 & +0.380 & +0.266 & +2.844 & +0.100 & -0.086 & \textbf{+0.021} \\
+        Blue Cyl & Wood Rg & 0.376 / 0.3747 / 1.38 & \textbf{-0.028} & \textbf{+0.011} & \textbf{+0.018} & +0.186 & +0.266 & +2.150 & -0.029 & -0.039 & -0.058 \\
+        Blue Cyl & Wood Sm & 0.175 / 0.2724 / 0.47 & \textbf{+0.085} & +0.098 & +0.495 & +0.383 & +0.368 & +3.040 & +0.105 & \textbf{-0.023} & \textbf{+0.213} \\
+        Blue Cyl & Wood Sm & 0.376 / 0.2724 / 1.00 & \textbf{+0.028} & +0.105 & +0.451 & +0.178 & +0.367 & +2.471 & -0.032 & \textbf{-0.009} & \textbf{-0.083} \\
+        Pla Cube & Green Rub & 1.123 / 0.4334 / 4.77 & -0.499 & \textbf{+0.028} & -1.801 & \textbf{-0.176} & +0.210 & \textbf{+0.360} & -0.590 & -0.033 & -2.986 \\
+        Pla Cube & Green Rub & 1.240 / 0.4334 / 5.27 & -0.593 & +0.033 & -2.149 & \textbf{-0.296} & +0.211 & \textbf{+0.427} & -0.703 & \textbf{-0.025} & -3.393 \\
+        Pla Cube & Green Rub & 1.456 / 0.4334 / 6.19 & -0.822 & \textbf{+0.024} & -3.190 & \textbf{-0.507} & +0.210 & \textbf{-0.196} & -0.890 & -0.066 & -4.247 \\
+        Pla Cube & Green Rub & 1.656 / 0.4334 / 7.04 & -1.005 & +0.039 & -3.926 & \textbf{-0.712} & +0.210 & \textbf{-1.074} & -1.082 & \textbf{+0.009} & -4.969 \\
+        Pla Cube & Green Rub & 1.856 / 0.4334 / 7.89 & -1.188 & +0.055 & -4.606 & \textbf{-0.912} & +0.211 & \textbf{-1.923} & -1.275 & \textbf{-0.043} & -5.760 \\
+        Pla Cube & Wood Rg & 0.390 / 0.2550 / 0.98 & +0.121 & +0.191 & +1.314 & +0.414 & +0.388 & +4.099 & \textbf{-0.069} & \textbf{+0.087} & \textbf{+0.073} \\
+        Pla Cube & Wood Rg & 0.498 / 0.2550 / 1.25 & +0.045 & +0.186 & +0.796 & \textbf{+0.042} & +0.385 & +2.141 & -0.110 & \textbf{+0.035} & \textbf{+0.034} \\
+        Pla Cube & Wood Rg & 0.598 / 0.2550 / 1.50 & \textbf{+0.000} & +0.204 & +1.162 & +0.127 & +0.388 & +3.078 & -0.235 & \textbf{+0.052} & \textbf{-0.152} \\
+        Pla Cube & Wood Rg & 0.694 / 0.2550 / 1.74 & \textbf{-0.074} & +0.196 & +0.781 & -0.097 & +0.388 & +2.038 & -0.259 & \textbf{+0.061} & \textbf{-0.194} \\
+        Pla Cube & Wood Rg & 0.798 / 0.2550 / 2.00 & -0.157 & +0.207 & +0.636 & \textbf{+0.117} & +0.385 & +2.298 & -0.352 & \textbf{+0.047} & \textbf{-0.561} \\
+        Pla Cube & Wood Rg & 0.915 / 0.2550 / 2.29 & -0.291 & +0.199 & \textbf{+0.390} & \textbf{+0.031} & +0.388 & +1.844 & -0.499 & \textbf{+0.099} & -0.783 \\
+        Pla Cube & Wood Rg & 1.123 / 0.2550 / 2.81 & -0.491 & +0.210 & \textbf{-0.006} & \textbf{-0.175} & +0.388 & +2.244 & -0.678 & \textbf{+0.104} & -1.265 \\
+        Pla Cube & Wood Rg & 1.240 / 0.2550 / 3.10 & -0.597 & +0.200 & \textbf{-0.028} & \textbf{-0.296} & +0.389 & +2.330 & -0.721 & \textbf{+0.064} & -1.409 \\
+        Pla Cube & Wood Rg & 1.456 / 0.2550 / 3.64 & -0.810 & +0.209 & \textbf{-0.549} & \textbf{-0.513} & +0.389 & +1.130 & -0.915 & \textbf{+0.076} & -1.769 \\
+        Pla Cube & Wood Rg & 1.656 / 0.2550 / 4.14 & -1.008 & +0.216 & \textbf{-0.993} & \textbf{-0.712} & +0.389 & +1.481 & -1.159 & \textbf{+0.122} & -2.266 \\
+        Pla Cube & Wood Rg & 1.856 / 0.2550 / 4.64 & -1.199 & +0.209 & -1.397 & \textbf{-0.909} & +0.389 & \textbf{+1.293} & -1.354 & \textbf{+0.129} & -2.729 \\
+        Pla Cube & Wood Sm & 1.123 / 0.3421 / 3.77 & -0.460 & +0.124 & \textbf{-0.549} & \textbf{-0.175} & +0.302 & +1.855 & -0.734 & \textbf{+0.044} & -2.269 \\
+        Pla Cube & Wood Sm & 1.240 / 0.3421 / 4.16 & -0.606 & +0.123 & -1.139 & \textbf{-0.296} & +0.301 & \textbf{+1.017} & -0.815 & \textbf{+0.020} & -2.623 \\
+        Pla Cube & Wood Sm & 1.456 / 0.3421 / 4.89 & -0.826 & +0.120 & -1.948 & \textbf{-0.509} & +0.301 & \textbf{+0.567} & -0.912 & \textbf{-0.014} & -3.123 \\
+        Pla Cube & Wood Sm & 1.656 / 0.3421 / 5.56 & -1.013 & +0.122 & -2.469 & \textbf{-0.711} & +0.302 & \textbf{+0.216} & -1.101 & \textbf{-0.003} & -3.662 \\
+        Pla Cube & Wood Sm & 1.856 / 0.3421 / 6.23 & -1.220 & +0.129 & -3.194 & \textbf{-0.908} & +0.302 & \textbf{-0.236} & -1.302 & \textbf{-0.002} & -4.370 \\
+        Toy Cont & Green Rub & 0.167 / 0.2987 / 0.49 & \textbf{+0.098} & \textbf{+0.032} & +0.382 & +0.371 & +0.342 & +2.892 & +0.108 & -0.038 & \textbf{+0.195} \\
+        Toy Cont & Green Rub & 0.397 / 0.2987 / 1.16 & +0.130 & +0.132 & +1.104 & +0.325 & +0.343 & +3.383 & \textbf{+0.003} & \textbf{+0.089} & \textbf{+0.174} \\
+        Toy Cont & Green Rub & 0.989 / 0.2987 / 2.90 & -0.328 & +0.167 & \textbf{-0.069} & \textbf{-0.041} & +0.345 & +3.004 & -0.414 & \textbf{+0.064} & -0.751 \\
+        Toy Cont & Wood Rg & 0.989 / 0.1799 / 1.75 & -0.312 & +0.290 & +1.094 & \textbf{-0.043} & +0.464 & +2.897 & -0.491 & \textbf{+0.180} & \textbf{-0.161} \\
+        Toy Cont & Wood Sm & 0.989 / 0.1580 / 1.53 & -0.308 & +0.326 & +1.446 & \textbf{-0.042} & +0.486 & +4.432 & -0.581 & \textbf{+0.257} & \textbf{+0.029} \\
+        Wood Cube Even & Green Rub & 0.348 / 0.4626 / 1.58 & +0.039 & \textbf{-0.000} & +0.381 & +0.214 & +0.178 & +1.957 & \textbf{-0.008} & -0.047 & \textbf{-0.132} \\
+        Wood Cube Even & Wood Rg & 0.348 / 0.1826 / 0.62 & -0.069 & +0.165 & +0.313 & +0.269 & +0.459 & +3.267 & \textbf{-0.024} & \textbf{+0.098} & \textbf{+0.171} \\
+        Wood Cube Even & Wood Sm & 0.348 / 0.2803 / 0.96 & -0.069 & +0.142 & +0.222 & +0.209 & +0.360 & +2.540 & \textbf{-0.018} & \textbf{-0.007} & \textbf{-0.013} \\
+        Wood Cube & Green Rub & 0.348 / 0.3103 / 1.06 & +0.058 & +0.103 & +0.697 & +0.200 & +0.329 & +2.379 & \textbf{+0.003} & \textbf{-0.006} & \textbf{+0.034} \\
+        Wood Cube & Green Rub & 0.570 / 0.3103 / 1.74 & +0.014 & +0.122 & +0.742 & \textbf{-0.009} & +0.329 & +1.750 & -0.124 & \textbf{-0.008} & \textbf{-0.303} \\
+        Wood Cube & Wood Rg & 0.348 / 0.1621 / 0.55 & \textbf{-0.021} & +0.199 & +0.439 & +0.209 & +0.478 & +2.944 & -0.032 & \textbf{+0.094} & \textbf{+0.166} \\
+        Wood Cube & Wood Rg & 0.570 / 0.1621 / 0.91 & \textbf{+0.022} & +0.260 & +0.644 & +0.057 & +0.481 & +3.055 & -0.195 & \textbf{+0.159} & \textbf{+0.155} \\
+        Wood Cube & Wood Sm & 0.348 / 0.1802 / 0.62 & \textbf{+0.004} & +0.225 & +0.876 & +0.268 & +0.463 & +3.274 & -0.031 & \textbf{+0.089} & \textbf{+0.187} \\
+        Wood Cube & Wood Sm & 0.570 / 0.1802 / 1.01 & +0.004 & +0.212 & +0.793 & \textbf{-0.001} & +0.461 & +2.579 & -0.225 & \textbf{+0.111} & \textbf{+0.129} \\
         \bottomrule
     \end{tabular}
     }
