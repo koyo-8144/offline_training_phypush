@@ -1,10 +1,10 @@
-domain,pinn_pcri-L1_p10c10.0 [MS10_FS0_Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [MS10_Drop0.4_Epo1000],pinn_pcri-L1_p5c10.0 [Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p2-2c5.0 [Drop0.4_Epo1000],data_tcri-log1p_mse_task10.0 [Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000]
-m_seen_mu_seen,14.46,7.97,12.27,11.98,15.52,11.0
-m_over,14.33,7.19,13.31,12.83,15.98,10.73
-m_under,14.36,12.5,14.11,14.12,11.76,8.04
-mu_over,6.88,12.42,13.97,14.09,11.49,19.61
-mu_under,6.82,13.7,16.55,17.64,13.69,15.53
-m_over_mu_over,6.87,7.04,6.85,6.89,7.56,13.24
-m_under_mu_under,6.83,6.89,3.81,3.63,6.96,6.65
-m_over_mu_under,6.91,8.72,7.05,7.01,7.39,12.92
-m_under_mu_over,6.62,8.59,6.91,6.83,9.26,12.44
+domain,pinn_pcri-L1_p10c10.0 [MS10_FS0_Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p5c10.0_p2-2c5.0 [Drop0.4_Epo1000],pinn_pcri-L1_p10c10.0 [MS10_Drop0.4_Epo1000],pinn_pcri-L1_p5c10.0 [Drop0.4_Epo1000],pinn_annstartepo300_rampd600_pcri-L1_p5c10.0_p2-2c5.0 [Drop0.4_Epo1000],data_tcri-log1p_mse_task10.0 [Drop0.4_Epo1000],pinn_annstartepo300_pcri-L1_p10c10.0_p9-2c5.0 [FS10_Drop0.4_Epo1000]
+m_seen_mu_seen,14.46,14.53,7.97,12.27,11.98,15.52,11.0
+m_over,14.33,14.4,7.19,13.31,12.83,15.98,10.73
+m_under,14.36,14.39,12.5,14.11,14.12,11.76,8.04
+mu_over,6.88,6.85,12.42,13.97,14.09,11.49,19.61
+mu_under,6.82,6.91,13.7,16.55,17.64,13.69,15.53
+m_over_mu_over,6.87,6.87,7.04,6.85,6.89,7.56,13.24
+m_under_mu_under,6.83,6.83,6.89,3.81,3.63,6.96,6.65
+m_over_mu_under,6.91,6.94,8.72,7.05,7.01,7.39,12.92
+m_under_mu_over,6.62,6.62,8.59,6.91,6.83,9.26,12.44

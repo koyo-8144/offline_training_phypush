@@ -1,6 +1,6 @@
-Model,Force Input Required?,seen (Mass NRMSE±STD),seen (Fric NRMSE±STD),unseen m (Mass NRMSE±STD),unseen m (Fric NRMSE±STD),unseen mu (Mass NRMSE±STD),unseen mu (Fric NRMSE±STD),unseen m and mu (Mass NRMSE±STD),unseen m and mu (Fric NRMSE±STD)
-PhyPush (Data loss),No,9.54 ± 4.43,27.50 ± 15.52,23.95 ± 8.56,25.86 ± 13.87,10.17 ± 4.56,37.22 ± 12.59,24.28 ± 8.41,38.92 ± 7.79
-PhyPush (PG loss 1),No,7.88 ± 3.95,21.10 ± 12.27,22.43 ± 8.58,32.05 ± 13.71,7.97 ± 3.67,32.11 ± 15.26,22.21 ± 8.61,39.15 ± 6.15
-PhyPush (PG loss 2),No,3.36 ± 2.19,12.97 ± 7.97,25.04 ± 9.21,18.02 ± 9.85,4.75 ± 2.75,32.08 ± 13.06,24.91 ± 9.22,35.45 ± 7.81
-PhyPush (PG loss 3),No,7.62 ± 4.05,20.70 ± 11.98,22.20 ± 8.58,31.12 ± 13.47,7.72 ± 3.74,33.17 ± 15.87,22.03 ± 8.58,39.00 ± 6.09
-PhyPush (PG loss 4),No,7.86 ± 4.53,20.27 ± 11.00,17.77 ± 8.57,16.91 ± 9.38,8.58 ± 4.81,35.95 ± 17.57,17.95 ± 8.66,35.02 ± 11.31
+Model,$\mathcal{D}_{test}$ (Mass NRMSE±STD),$\mathcal{D}_{test}$ (Fric NRMSE±STD),$\mathcal{D}_{OOD}^m$ (Mass NRMSE±STD),$\mathcal{D}_{OOD}^m$ (Fric NRMSE±STD),$\mathcal{D}_{OOD}^{\mu}$ (Mass NRMSE±STD),$\mathcal{D}_{OOD}^{\mu}$ (Fric NRMSE±STD),"$\mathcal{D}_{OOD}^{m, \mu}$ (Mass NRMSE±STD)","$\mathcal{D}_{OOD}^{m, \mu}$ (Fric NRMSE±STD)"
+$\mathcal{L}_{\text{data}}$,9.54 ± 4.43,27.50 ± 15.52,23.95 ± 8.56,25.86 ± 13.87,10.17 ± 4.56,37.22 ± 12.59,24.28 ± 8.41,38.92 ± 7.79
+$\mathcal{L}_{\text{force}}$,7.88 ± 3.95,21.10 ± 12.27,22.43 ± 8.58,32.05 ± 13.71,7.97 ± 3.67,32.11 ± 15.26,22.21 ± 8.61,39.15 ± 6.15
+$\mathcal{L}_{\text{acc}}$,3.36 ± 2.19,12.97 ± 7.97,25.04 ± 9.21,18.02 ± 9.85,4.75 ± 2.75,32.08 ± 13.06,24.91 ± 9.22,35.45 ± 7.81
+"$\mathcal{L}_{\text{force, un}}$",7.62 ± 4.05,20.70 ± 11.98,22.20 ± 8.58,31.12 ± 13.47,7.72 ± 3.74,33.17 ± 15.87,22.03 ± 8.58,39.00 ± 6.09
+"$\mathcal{L}_{\text{acc, un}}$",7.86 ± 4.53,20.27 ± 11.00,17.77 ± 8.57,16.91 ± 9.38,8.58 ± 4.81,35.95 ± 17.57,17.95 ± 8.66,35.02 ± 11.31
