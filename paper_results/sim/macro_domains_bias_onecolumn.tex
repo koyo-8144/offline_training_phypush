@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Performance Comparison (Raw Bias $\pm$ STD) Across All Domains}
+    \vspace{2mm}
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{l c c c c c c}
+        \toprule
+        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ \\
+        \midrule
+        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{data}}$} & \multirow{2}{*}{No} & $m$ & -0.161$\pm$0.084 & -0.353$\pm$0.163 & -0.172$\pm$0.087 & -0.362$\pm$0.160 \\
+        \cmidrule(lr){3-7}
+         &  & $\mu$ & +0.079$\pm$0.062 & \textbf{+0.025}$\pm$0.055 & +0.073$\pm$0.050 & +0.025$\pm$0.031 \\
+        \midrule
+        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{force}}$} & \multirow{2}{*}{No} & $m$ & -0.129$\pm$0.075 & -0.322$\pm$0.163 & -0.132$\pm$0.070 & -0.318$\pm$0.164 \\
+        \cmidrule(lr){3-7}
+         &  & $\mu$ & -0.031$\pm$0.049 & -0.039$\pm$0.055 & -0.032$\pm$0.061 & -0.037$\pm$0.025 \\
+        \midrule
+        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{acc}}$} & \multirow{2}{*}{No} & $m$ & \textbf{-0.008}$\pm$0.042 & -0.221$\pm$0.175 & -0.019$\pm$0.052 & -0.219$\pm$0.175 \\
+        \cmidrule(lr){3-7}
+         &  & $\mu$ & \textbf{-0.001}$\pm$0.032 & -0.037$\pm$0.039 & \textbf{-0.002}$\pm$0.052 & -0.039$\pm$0.031 \\
+        \midrule
+        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{force, un}}$} & \multirow{2}{*}{No} & $m$ & -0.122$\pm$0.077 & -0.312$\pm$0.163 & -0.125$\pm$0.071 & -0.309$\pm$0.163 \\
+        \cmidrule(lr){3-7}
+         &  & $\mu$ & -0.016$\pm$0.048 & -0.041$\pm$0.054 & -0.022$\pm$0.063 & -0.039$\pm$0.024 \\
+        \midrule
+        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{acc, un}}$} & \multirow{2}{*}{No} & $m$ & +0.043$\pm$0.086 & \textbf{-0.211}$\pm$0.163 & \textbf{+0.000}$\pm$0.091 & \textbf{-0.211}$\pm$0.165 \\
+        \cmidrule(lr){3-7}
+         &  & $\mu$ & -0.038$\pm$0.044 & +0.026$\pm$0.037 & -0.038$\pm$0.070 & \textbf{+0.006}$\pm$0.045 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

@@ -1,0 +1,20 @@
+\begin{table*}[t]
+    \centering
+    \caption{Performance Comparison (Raw Bias $\pm$ STD) Across All Domains}
+    \vspace{2mm}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{l c c c c c c c c c}
+        \toprule
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} \\
+        \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
+        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \midrule
+        PhyPush $\mathcal{L}_{\text{data}}$ & No & -0.161 $\pm$ 0.084 & +0.079 $\pm$ 0.062 & -0.353 $\pm$ 0.163 & \textbf{+0.025} $\pm$ 0.055 & -0.172 $\pm$ 0.087 & +0.073 $\pm$ 0.050 & -0.362 $\pm$ 0.160 & +0.025 $\pm$ 0.031 \\
+        PhyPush $\mathcal{L}_{\text{force}}$ & No & -0.129 $\pm$ 0.075 & -0.031 $\pm$ 0.049 & -0.322 $\pm$ 0.163 & -0.039 $\pm$ 0.055 & -0.132 $\pm$ 0.070 & -0.032 $\pm$ 0.061 & -0.318 $\pm$ 0.164 & -0.037 $\pm$ 0.025 \\
+        PhyPush $\mathcal{L}_{\text{acc}}$ & No & \textbf{-0.008} $\pm$ 0.042 & \textbf{-0.001} $\pm$ 0.032 & -0.221 $\pm$ 0.175 & -0.037 $\pm$ 0.039 & -0.019 $\pm$ 0.052 & \textbf{-0.002} $\pm$ 0.052 & -0.219 $\pm$ 0.175 & -0.039 $\pm$ 0.031 \\
+        PhyPush $\mathcal{L}_{\text{force, un}}$ & No & -0.122 $\pm$ 0.077 & -0.016 $\pm$ 0.048 & -0.312 $\pm$ 0.163 & -0.041 $\pm$ 0.054 & -0.125 $\pm$ 0.071 & -0.022 $\pm$ 0.063 & -0.309 $\pm$ 0.163 & -0.039 $\pm$ 0.024 \\
+        PhyPush $\mathcal{L}_{\text{acc, un}}$ & No & +0.043 $\pm$ 0.086 & -0.038 $\pm$ 0.044 & \textbf{-0.211} $\pm$ 0.163 & +0.026 $\pm$ 0.037 & \textbf{+0.000} $\pm$ 0.091 & -0.038 $\pm$ 0.070 & \textbf{-0.211} $\pm$ 0.165 & \textbf{+0.006} $\pm$ 0.045 \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table*}

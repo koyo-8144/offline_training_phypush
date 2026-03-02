@@ -1,23 +1,23 @@
 \begin{table}[htbp]
     \centering
-    \caption{Ablation Study: Performance (NRMSE $\pm$ STD (Bias) \%)}
+    \caption{Ablation Study: Performance (Raw Bias $\pm$ STD)}
     \vspace{2mm}
     \resizebox{\columnwidth}{!}{
     \begin{tabular}{l c c c}
         \toprule
         \textbf{Model} & \textbf{Property} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} \\
         \midrule
-        \multirow{2}{*}{Only $m$} & $m$ & 10.3$\pm$5.9(+8.0) & 22.4$\pm$8.3(-3.1) \\
+        \multirow{2}{*}{Only $m$} & $m$ & +0.153$\pm$0.113 & \textbf{-0.060}$\pm$0.159 \\
         \cmidrule(lr){2-4}
          & $\mu$ & N/A & N/A \\
         \midrule
         \multirow{2}{*}{Only $\mu$} & $m$ & N/A & N/A \\
         \cmidrule(lr){2-4}
-         & $\mu$ & 14.0$\pm$9.3(N/A) & 30.9$\pm$10.9(N/A) \\
+         & $\mu$ & N/A & N/A \\
         \midrule
-        \multirow{2}{*}{$\mathcal{L}_{\text{acc}}$} & $m$ & \textbf{3.4}$\pm$2.2(-0.4) & \textbf{19.9}$\pm$7.6(-8.9) \\
+        \multirow{2}{*}{$\mathcal{L}_{\text{acc}}$} & $m$ & \textbf{-0.008}$\pm$0.042 & -0.170$\pm$0.144 \\
         \cmidrule(lr){2-4}
-         & $\mu$ & \textbf{13.0}$\pm$8.0(-0.2) & \textbf{30.2}$\pm$9.6(-7.3) \\
+         & $\mu$ & \textbf{-0.001}$\pm$0.032 & \textbf{-0.029}$\pm$0.039 \\
         \bottomrule
     \end{tabular}
     }
