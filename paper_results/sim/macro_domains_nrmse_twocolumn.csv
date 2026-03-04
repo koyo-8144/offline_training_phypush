@@ -1,1 +1,6 @@
 Model,Force Input Required?,Light (0.2~0.8 kg) (m NRMSE±STD),Light (0.2~0.8 kg) (mu NRMSE±STD),Middle (0.8~1.4 kg) (m NRMSE±STD),Middle (0.8~1.4 kg) (mu NRMSE±STD),Heavy (1.4~2.0 kg) (m NRMSE±STD),Heavy (1.4~2.0 kg) (mu NRMSE±STD)
+PhyPush ($\mathcal{L}_{\text{data}}$),No,0.038±0.021,0.217±0.157,0.041±0.026,0.078±0.052,0.104±0.062,0.101±0.064
+PhyPush ($\mathcal{L}_{\text{force}}$ M10),No,0.034±0.021,0.188±0.121,0.032±0.019,0.042±0.027,0.059±0.038,0.063±0.046
+PhyPush ($\mathcal{L}_{\text{acc}}$ M10),No,0.025±0.016,0.137±0.096,0.094±0.043,0.097±0.064,0.121±0.050,0.127±0.071
+"PhyPush ($\mathcal{L}_{\text{force,un}}$ M10)",No,0.035±0.022,0.186±0.117,0.033±0.020,0.044±0.029,0.065±0.041,0.065±0.045
+"PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10)",No,0.026±0.016,0.135±0.094,0.094±0.042,0.094±0.061,0.117±0.050,0.109±0.060
