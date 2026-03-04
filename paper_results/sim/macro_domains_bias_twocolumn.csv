@@ -1,6 +1,2 @@
-Model,Force Input Required?,Light (0.2~0.8 kg) (m Est±Est_STD(Bias)),Light (0.2~0.8 kg) (mu Est±Est_STD(Bias)),Middle (0.8~1.4 kg) (m Est±Est_STD(Bias)),Middle (0.8~1.4 kg) (mu Est±Est_STD(Bias)),Heavy (1.4~2.0 kg) (m Est±Est_STD(Bias)),Heavy (1.4~2.0 kg) (mu Est±Est_STD(Bias))
-PhyPush ($\mathcal{L}_{\text{data}}$),No,N/A±0.146(+0.048),N/A±0.101(+0.004),N/A±0.162(-0.026),N/A±0.099(-0.007),N/A±0.180(-0.134),N/A±0.093(-0.011)
-PhyPush ($\mathcal{L}_{\text{force}}$ M10),No,N/A±0.148(+0.044),N/A±0.083(+0.013),N/A±0.174(+0.008),N/A±0.100(+0.003),N/A±0.178(-0.053),N/A±0.092(-0.002)
-PhyPush ($\mathcal{L}_{\text{acc}}$ M10),No,N/A±0.160(-0.032),N/A±0.094(-0.008),N/A±0.139(-0.150),N/A±0.106(+0.020),N/A±0.185(-0.196),N/A±0.111(+0.035)
-"PhyPush ($\mathcal{L}_{\text{force,un}}$ M10)",No,N/A±0.146(+0.045),N/A±0.082(+0.017),N/A±0.173(+0.009),N/A±0.101(+0.004),N/A±0.175(-0.070),N/A±0.094(+0.003)
-"PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10)",No,N/A±0.159(-0.035),N/A±0.095(-0.007),N/A±0.142(-0.150),N/A±0.107(+0.021),N/A±0.187(-0.189),N/A±0.107(+0.030)
+Model,Force Input Required?,$\mathcal{D}_{test}$ (m Est±Est_STD(Bias)),$\mathcal{D}_{test}$ (mu Est±Est_STD(Bias)),$\mathcal{D}_{OOD}^m$ (m Est±Est_STD(Bias)),$\mathcal{D}_{OOD}^m$ (mu Est±Est_STD(Bias)),$\mathcal{D}_{OOD}^{\mu}$ (m Est±Est_STD(Bias)),$\mathcal{D}_{OOD}^{\mu}$ (mu Est±Est_STD(Bias)),"$\mathcal{D}_{OOD}^{m, \mu}$ (m Est±Est_STD(Bias))","$\mathcal{D}_{OOD}^{m, \mu}$ (mu Est±Est_STD(Bias))",Overall (m Est±Est_STD(Bias)),Overall (mu Est±Est_STD(Bias))
+Baseline~\cite{mavrakis_estimating_2020},Yes,N/A±0.519(+0.000),N/A±0.099(-0.000),N/A±0.008(-0.533),N/A±0.068(+0.002),N/A±0.539(+0.102),N/A±0.024(-0.070),N/A±0.010(-0.543),N/A±0.043(-0.165),N/A±0.269(-0.243),N/A±0.059(-0.058)

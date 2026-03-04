@@ -3,17 +3,13 @@
     \caption{Performance Comparison (NRMSE $\pm$ STD) Across All Domains}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{l c c c c c c c}
+    \begin{tabular}{l c c c c c c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{Light (0.2~0.8 kg)} & \multicolumn{2}{c}{Middle (0.8~1.4 kg)} & \multicolumn{2}{c}{Heavy (1.4~2.0 kg)} \\
-        \cmidrule(lr){3 + 0}-4} \cmidrule(lr){3 + 2}-6} \cmidrule(lr){3 + 4}-8}
-        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} & \multicolumn{2}{c}{Overall} \\
+        \cmidrule(lr){3 + 0}-4} \cmidrule(lr){3 + 2}-6} \cmidrule(lr){3 + 4}-8} \cmidrule(lr){3 + 6}-10} \cmidrule(lr){3 + 8}-12}
+        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
         \midrule
-        PhyPush ($\mathcal{L}_{\text{data}}$) & No & 0.038 $\pm$ 0.021 & 0.217 $\pm$ 0.157 & 0.041 $\pm$ 0.026 & 0.078 $\pm$ 0.052 & 0.104 $\pm$ 0.062 & 0.101 $\pm$ 0.064 \\
-        PhyPush ($\mathcal{L}_{\text{force}}$ M10) & No & 0.034 $\pm$ 0.021 & 0.188 $\pm$ 0.121 & \textbf{0.032} $\pm$ 0.019 & \textbf{0.042} $\pm$ 0.027 & \textbf{0.059} $\pm$ 0.038 & \textbf{0.063} $\pm$ 0.046 \\
-        PhyPush ($\mathcal{L}_{\text{acc}}$ M10) & No & \textbf{0.025} $\pm$ 0.016 & 0.137 $\pm$ 0.096 & 0.094 $\pm$ 0.043 & 0.097 $\pm$ 0.064 & 0.121 $\pm$ 0.050 & 0.127 $\pm$ 0.071 \\
-        PhyPush ($\mathcal{L}_{\text{force,un}}$ M10) & No & 0.035 $\pm$ 0.022 & 0.186 $\pm$ 0.117 & 0.033 $\pm$ 0.020 & 0.044 $\pm$ 0.029 & 0.065 $\pm$ 0.041 & 0.065 $\pm$ 0.045 \\
-        PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10) & No & 0.026 $\pm$ 0.016 & \textbf{0.135} $\pm$ 0.094 & 0.094 $\pm$ 0.042 & 0.094 $\pm$ 0.061 & 0.117 $\pm$ 0.050 & 0.109 $\pm$ 0.060 \\
+        Baseline~\cite{mavrakis_estimating_2020} & Yes & \textbf{0.007} $\pm$ 0.005 & \textbf{0.021} $\pm$ 0.017 & \textbf{0.338} $\pm$ 0.162 & \textbf{0.147} $\pm$ 0.091 & \textbf{0.070} $\pm$ 0.041 & \textbf{0.234} $\pm$ 0.120 & \textbf{0.342} $\pm$ 0.161 & \textbf{0.499} $\pm$ 0.164 & \textbf{0.189} $\pm$ 0.092 & \textbf{0.225} $\pm$ 0.098 \\
         \bottomrule
     \end{tabular}
     }
