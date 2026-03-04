@@ -1,16 +1,13 @@
 \begin{table}[htbp]
     \centering
-    \caption{Performance Comparison (Raw Bias $\pm$ STD) Across All Domains}
+    \caption{Performance Comparison (Raw Est $\pm$ Est STD (Bias)) Across All Domains}
     \vspace{2mm}
     \resizebox{\columnwidth}{!}{
-    \begin{tabular}{l c c c c c c}
+    \begin{tabular}{l c c c c c}
         \toprule
-        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ \\
+        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & Light (0.2~0.8 kg) & Middle (0.8~1.4 kg) & Heavy (1.4~2.0 kg) \\
         \midrule
-        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{data}}$} & \multirow{2}{*}{No} & $m$ & \textbf{-0.132}$\pm$0.127 & \textbf{-0.925}$\pm$0.290 & \textbf{-0.109}$\pm$0.124 & \textbf{-0.915}$\pm$0.292 \\
-        \cmidrule(lr){3-7}
-         &  & $\mu$ & \textbf{-0.064}$\pm$0.050 & \textbf{-0.057}$\pm$0.047 & \textbf{-0.208}$\pm$0.035 & \textbf{-0.203}$\pm$0.028 \\
-        \midrule
+
         \bottomrule
     \end{tabular}
     }

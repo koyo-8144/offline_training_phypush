@@ -1,7 +1,7 @@
-Model,Property,Seen,Unseen
-Only $m$,$m$,0.103±0.059,0.224±0.083
-,$\mu$,N/A,N/A
-Only $\mu$,$m$,N/A,N/A
-,$\mu$,0.140±0.093,0.309±0.109
-$\mathcal{L}_{\text{acc}}$,$m$,0.034±0.022,0.199±0.076
-,$\mu$,0.130±0.080,0.302±0.096
+Model,Property,$\mathcal{D}_{test}$
+Only $m$,$m$,0.103±0.059
+,$\mu$,N/A
+Only $\mu$,$m$,N/A
+,$\mu$,0.140±0.093
+$\mathcal{L}_{\text{acc}}$,$m$,0.034±0.022
+,$\mu$,0.130±0.080

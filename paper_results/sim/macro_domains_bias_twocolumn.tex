@@ -1,15 +1,15 @@
 \begin{table*}[t]
     \centering
-    \caption{Performance Comparison (Raw Bias $\pm$ STD) Across All Domains}
+    \caption{Performance Comparison (Raw Est $\pm$ Est STD (Bias)) Across All Domains}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{l c c c c c c c c c}
+    \begin{tabular}{l c c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} \\
-        \cmidrule(lr){3-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
-        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{Light (0.2~0.8 kg)} & \multicolumn{2}{c}{Middle (0.8~1.4 kg)} & \multicolumn{2}{c}{Heavy (1.4~2.0 kg)} \\
+        \cmidrule(lr){3 + 0}-4} \cmidrule(lr){3 + 2}-6} \cmidrule(lr){3 + 4}-8}
+        & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
         \midrule
-        PhyPush $\mathcal{L}_{\text{data}}$ & No & \textbf{-0.132} $\pm$ 0.127 & \textbf{-0.064} $\pm$ 0.050 & \textbf{-0.925} $\pm$ 0.290 & \textbf{-0.057} $\pm$ 0.047 & \textbf{-0.109} $\pm$ 0.124 & \textbf{-0.208} $\pm$ 0.035 & \textbf{-0.915} $\pm$ 0.292 & \textbf{-0.203} $\pm$ 0.028 \\
+
         \bottomrule
     \end{tabular}
     }

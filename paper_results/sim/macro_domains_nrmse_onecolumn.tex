@@ -3,14 +3,11 @@
     \caption{Performance Comparison (NRMSE $\pm$ STD) Across All Domains}
     \vspace{2mm}
     \resizebox{\columnwidth}{!}{
-    \begin{tabular}{l c c c c c c}
+    \begin{tabular}{l c c c c c}
         \toprule
-        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ \\
+        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & Light (0.2~0.8 kg) & Middle (0.8~1.4 kg) & Heavy (1.4~2.0 kg) \\
         \midrule
-        \multirow{2}{*}{PhyPush $\mathcal{L}_{\text{data}}$} & \multirow{2}{*}{No} & $m$ & \textbf{0.104}$\pm$0.067 & \textbf{0.510}$\pm$0.153 & \textbf{0.101}$\pm$0.065 & \textbf{0.506}$\pm$0.154 \\
-        \cmidrule(lr){3-7}
-         &  & $\mu$ & \textbf{0.225}$\pm$0.126 & \textbf{0.203}$\pm$0.117 & \textbf{0.528}$\pm$0.089 & \textbf{0.512}$\pm$0.069 \\
-        \midrule
+
         \bottomrule
     \end{tabular}
     }
