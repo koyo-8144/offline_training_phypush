@@ -3,13 +3,18 @@
     \caption{Performance Comparison (Raw Est $\pm$ Est STD (Bias)) Across All Domains}
     \vspace{2mm}
     \resizebox{\textwidth}{!}{
-    \begin{tabular}{l c c c c c c c c c c c}
+    \begin{tabular}{l c c c | c c c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} & \multicolumn{2}{c}{Overall} \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular}} & \multicolumn{2}{c|}{$\mathcal{D}_{test}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^m$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{\mu}$} & \multicolumn{2}{c}{$\mathcal{D}_{OOD}^{m, \mu}$} & \multicolumn{2}{c}{OOD Overall} \\
         \cmidrule(lr){3 + 0}-4} \cmidrule(lr){3 + 2}-6} \cmidrule(lr){3 + 4}-8} \cmidrule(lr){3 + 6}-10} \cmidrule(lr){3 + 8}-12}
         & & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} & \textbf{$m$} & \textbf{$\mu$} \\
         \midrule
-        Baseline~\cite{mavrakis_estimating_2020} & Yes & \textbf{N/A} $\pm$ 0.519 (+0.000) & \textbf{N/A} $\pm$ 0.099 (-0.000) & \textbf{N/A} $\pm$ 0.008 (-0.533) & \textbf{N/A} $\pm$ 0.068 (+0.002) & \textbf{N/A} $\pm$ 0.539 (+0.102) & \textbf{N/A} $\pm$ 0.024 (-0.070) & \textbf{N/A} $\pm$ 0.010 (-0.543) & \textbf{N/A} $\pm$ 0.043 (-0.165) & \textbf{N/A} $\pm$ 0.269 (-0.243) & \textbf{N/A} $\pm$ 0.059 (-0.058) \\
+        Baseline~\cite{mavrakis_estimating_2020} & Yes & N/A $\pm$ 0.519 (+0.000) & \textbf{N/A} $\pm$ 0.099 (-0.000) & \textbf{N/A} $\pm$ 0.008 (-0.533) & \textbf{N/A} $\pm$ 0.068 (+0.002) & N/A $\pm$ 0.539 (+0.102) & \textbf{N/A} $\pm$ 0.024 (-0.070) & N/A $\pm$ 0.010 (-0.543) & N/A $\pm$ 0.043 (-0.165) & \textbf{N/A} $\pm$ 0.186 (-0.325) & N/A $\pm$ 0.045 (-0.078) \\
+        PhyPush ($\mathcal{L}_{\text{data}}$) & No & N/A $\pm$ 0.446 (-0.037) & N/A $\pm$ 0.098 (-0.004) & N/A $\pm$ 0.091 (-0.577) & N/A $\pm$ 0.077 (+0.024) & N/A $\pm$ 0.506 (+0.052) & N/A $\pm$ 0.050 (-0.117) & N/A $\pm$ 0.042 (-0.536) & N/A $\pm$ 0.022 (-0.137) & N/A $\pm$ 0.213 (-0.354) & N/A $\pm$ 0.050 (-0.077) \\
+        PhyPush ($\mathcal{L}_{\text{force}}$ M10) & No & \textbf{N/A} $\pm$ 0.479 (+0.000) & N/A $\pm$ 0.092 (+0.005) & N/A $\pm$ 0.042 (-0.543) & N/A $\pm$ 0.088 (+0.077) & N/A $\pm$ 0.521 (+0.075) & N/A $\pm$ 0.044 (-0.088) & N/A $\pm$ 0.045 (-0.535) & \textbf{N/A} $\pm$ 0.020 (-0.043) & N/A $\pm$ 0.203 (-0.335) & N/A $\pm$ 0.050 (-0.018) \\
+        PhyPush ($\mathcal{L}_{\text{acc}}$ M10) & No & N/A $\pm$ 0.453 (-0.125) & N/A $\pm$ 0.105 (+0.015) & N/A $\pm$ 0.089 (-0.716) & N/A $\pm$ 0.079 (+0.119) & N/A $\pm$ 0.498 (-0.028) & N/A $\pm$ 0.059 (-0.087) & N/A $\pm$ 0.043 (-0.747) & N/A $\pm$ 0.018 (-0.057) & N/A $\pm$ 0.210 (-0.497) & \textbf{N/A} $\pm$ 0.052 (-0.008) \\
+        PhyPush ($\mathcal{L}_{\text{force,un}}$ M10) & No & N/A $\pm$ 0.472 (-0.005) & N/A $\pm$ 0.093 (+0.008) & N/A $\pm$ 0.045 (-0.549) & N/A $\pm$ 0.087 (+0.061) & N/A $\pm$ 0.522 (+0.081) & N/A $\pm$ 0.042 (-0.079) & \textbf{N/A} $\pm$ 0.038 (-0.535) & N/A $\pm$ 0.013 (-0.049) & N/A $\pm$ 0.202 (-0.335) & N/A $\pm$ 0.047 (-0.022) \\
+        PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10) & No & N/A $\pm$ 0.457 (-0.124) & N/A $\pm$ 0.104 (+0.015) & N/A $\pm$ 0.088 (-0.691) & N/A $\pm$ 0.084 (+0.104) & \textbf{N/A} $\pm$ 0.503 (-0.019) & N/A $\pm$ 0.053 (-0.090) & N/A $\pm$ 0.029 (-0.758) & N/A $\pm$ 0.011 (-0.055) & N/A $\pm$ 0.207 (-0.489) & N/A $\pm$ 0.049 (-0.013) \\
         \bottomrule
     \end{tabular}
     }
