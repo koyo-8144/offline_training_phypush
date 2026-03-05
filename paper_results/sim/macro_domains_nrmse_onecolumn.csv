@@ -1,4 +1,4 @@
-Model,Force Input Required?,Property,$\mathcal{D}_{test}$,$\mathcal{D}_{OOD}^m$,$\mathcal{D}_{OOD}^{\mu}$,"$\mathcal{D}_{OOD}^{m, \mu}$",OOD Overall
+Model,Force Input Required?,Property,$\mathcal{D}_{test}$,$\mathcal{D}_{OOD}^m$,$\mathcal{D}_{OOD}^{\mu}$,"$\mathcal{D}_{OOD}^{m, \mu}$",OOD Avg
 Baseline~\cite{mavrakis_estimating_2020},Yes,$m$,0.004±0.003,0.217±0.104,0.045±0.026,0.220±0.104,0.161±0.078
 ,,$\mu$,0.013±0.011,0.094±0.058,0.149±0.076,0.318±0.104,0.187±0.079
 PhyPush ($\mathcal{L}_{\text{data}}$),No,$m$,0.044±0.030,0.223±0.085,0.038±0.023,0.212±0.091,0.158±0.066

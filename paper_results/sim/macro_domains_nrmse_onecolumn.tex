@@ -1,40 +1,39 @@
-\begin{table}[htbp]
+\begin{table*}[tb]
     \centering
-    \caption{Performance Comparison (NRMSE $\pm$ STD) Across All Domains}
-    \vspace{2mm}
-    \resizebox{\columnwidth}{!}{
-    \begin{tabular}{l c c c | c c c c}
+    \caption{Simulation (NRMSE $\pm$ std) ($\downarrow$) for Mass ($m$) and Friction ($\mu$) for seen and unseen domains. \textbf{\cmark} Requires force/torque input. \textbf{\xmark} Uses only kinematic velocity.}
+    \begin{tabular}{l|c| c| c| c c c c}
         \toprule
-        \textbf{Model} & \begin{tabular}{@{}c@{}}\textbf{Force Input} \\ \midrule \textbf{Required?}\end{tabular} & \textbf{Property} & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ & OOD Overall \\
+        \multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{Force ?}} & \multirow{2}{*}{\textbf{Property}} & \textbf{Seen} & \multicolumn{4}{c}{\textbf{Unseen}} \\
+        \cmidrule(lr){4-8}
+        & & & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ & OOD Avg \\
         \midrule
-        \multirow{2}{*}{Baseline~\cite{mavrakis_estimating_2020}} & \multirow{2}{*}{Yes} & $m$ & \textbf{0.004}$\pm$0.003 & \textbf{0.217}$\pm$0.104 & 0.045$\pm$0.026 & 0.220$\pm$0.104 & 0.161$\pm$0.078 \\
+        \multirow{2}{*}{Baseline~\cite{mavrakis_estimating_2020}} & \multirow{2}{*}{\textbf{\cmark}} & $m$ & \textbf{0.004}$\pm$0.003 & \textbf{0.217}$\pm$0.104 & 0.045$\pm$0.026 & 0.220$\pm$0.104 & 0.161$\pm$0.078 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & \textbf{0.013}$\pm$0.011 & \textbf{0.094}$\pm$0.058 & \textbf{0.149}$\pm$0.076 & 0.318$\pm$0.104 & 0.187$\pm$0.079 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{data}}$)} & \multirow{2}{*}{No} & $m$ & 0.044$\pm$0.030 & 0.223$\pm$0.085 & 0.038$\pm$0.023 & 0.212$\pm$0.091 & 0.158$\pm$0.066 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{data}}$)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.044$\pm$0.030 & 0.223$\pm$0.085 & 0.038$\pm$0.023 & 0.212$\pm$0.091 & 0.158$\pm$0.066 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.093$\pm$0.070 & 0.128$\pm$0.080 & 0.242$\pm$0.113 & 0.258$\pm$0.065 & 0.209$\pm$0.086 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force}}$ M10)} & \multirow{2}{*}{No} & $m$ & 0.028$\pm$0.018 & 0.218$\pm$0.100 & 0.038$\pm$0.022 & 0.216$\pm$0.101 & 0.158$\pm$0.074 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force}}$ M10)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.028$\pm$0.018 & 0.218$\pm$0.100 & 0.038$\pm$0.022 & 0.216$\pm$0.101 & 0.158$\pm$0.074 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.075$\pm$0.059 & 0.176$\pm$0.105 & 0.187$\pm$0.097 & \textbf{0.102}$\pm$0.057 & 0.155$\pm$0.086 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{acc}}$ M10)} & \multirow{2}{*}{No} & $m$ & 0.057$\pm$0.035 & 0.274$\pm$0.100 & 0.043$\pm$0.028 & 0.283$\pm$0.094 & 0.200$\pm$0.074 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{acc}}$ M10)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.057$\pm$0.035 & 0.274$\pm$0.100 & 0.043$\pm$0.028 & 0.283$\pm$0.094 & 0.200$\pm$0.074 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.077$\pm$0.050 & 0.254$\pm$0.130 & 0.199$\pm$0.121 & 0.125$\pm$0.067 & 0.193$\pm$0.106 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,un}}$ M10)} & \multirow{2}{*}{No} & $m$ & 0.030$\pm$0.020 & 0.220$\pm$0.099 & 0.039$\pm$0.022 & 0.212$\pm$0.093 & 0.157$\pm$0.071 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,un}}$ M10)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.030$\pm$0.020 & 0.220$\pm$0.099 & 0.039$\pm$0.022 & 0.212$\pm$0.093 & 0.157$\pm$0.071 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.075$\pm$0.057 & 0.145$\pm$0.090 & 0.172$\pm$0.093 & 0.108$\pm$0.058 & \textbf{0.142}$\pm$0.080 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10)} & \multirow{2}{*}{No} & $m$ & 0.056$\pm$0.034 & 0.267$\pm$0.102 & 0.040$\pm$0.026 & 0.288$\pm$0.099 & 0.198$\pm$0.076 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{acc,un}}$ M10)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.056$\pm$0.034 & 0.267$\pm$0.102 & 0.040$\pm$0.026 & 0.288$\pm$0.099 & 0.198$\pm$0.076 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.073$\pm$0.047 & 0.230$\pm$0.129 & 0.200$\pm$0.114 & 0.118$\pm$0.061 & 0.182$\pm$0.102 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)} & \multirow{2}{*}{No} & $m$ & 0.031$\pm$0.020 & 0.219$\pm$0.097 & \textbf{0.038}$\pm$0.021 & \textbf{0.206}$\pm$0.093 & \textbf{0.154}$\pm$0.070 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)} & \multirow{2}{*}{\textbf{\xmark}} & $m$ & 0.031$\pm$0.020 & 0.219$\pm$0.097 & \textbf{0.038}$\pm$0.021 & \textbf{0.206}$\pm$0.093 & \textbf{0.154}$\pm$0.070 \\
         \cmidrule(lr){3-8}
          &  & $\mu$ & 0.074$\pm$0.057 & 0.143$\pm$0.091 & 0.170$\pm$0.092 & 0.136$\pm$0.064 & 0.150$\pm$0.082 \\
         \bottomrule
     \end{tabular}
-    }
-\end{table}
+\end{table*}
