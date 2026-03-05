@@ -2,4 +2,3 @@ Model,Mass ($\mathcal{D}_{test}$),"Mass ({\scriptsize $\mathcal{D}_{OOD}^m$ $\cu
 Only $m$ estimation,-0.040±0.063,-0.338±0.222,-0.189±0.142,N/A,N/A,N/A
 Only $\mu$ estimation,N/A,N/A,N/A,+0.039±0.034,-0.033±0.038,+0.003±0.036
 "PhyPush ($\mathcal{L}_{\text{force,un}})$",-0.005±0.056,-0.335±0.199,-0.170±0.128,+0.008±0.032,-0.022±0.044,-0.007±0.038
-"PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)",-0.004±0.057,-0.329±0.197,-0.166±0.127,+0.010±0.031,-0.028±0.045,-0.009±0.038
