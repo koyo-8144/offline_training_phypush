@@ -1,0 +1,5 @@
+Model,Law,$\mathcal{D}_{test}$,"{\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$}",Overall
+PhyPush ($\mathcal{L}_{\text{data}}$),Net F,0.946,-1.684,-0.369
+,Fric F,0.910,-2.088,-0.589
+"PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)",Net F,0.974,-1.562,-0.294
+,Fric F,0.977,-0.869,0.054

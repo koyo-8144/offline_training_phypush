@@ -1,7 +1,9 @@
-Model,Property,$\mathcal{D}_{test}$,"{\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$}"
-Only $m$,$m$,0.103±0.059,0.224±0.083
-,$\mu$,N/A,N/A
-Only $\mu$,$m$,N/A,N/A
-,$\mu$,0.140±0.093,0.309±0.109
-$\mathcal{L}_{\text{acc}}$,$m$,0.034±0.022,0.199±0.076
-,$\mu$,0.130±0.080,0.302±0.096
+Model,Property,$\mathcal{D}_{test}$,"{\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$}",Overall
+Only $m$ estimation,$m$,0.032±0.022,0.163±0.079,0.097±0.051
+,$\mu$,N/A,N/A,N/A
+Only $\mu$ estimation,$m$,N/A,N/A,N/A
+,$\mu$,0.111±0.062,0.150±0.070,0.130±0.066
+"PhyPush ($\mathcal{L}_{\text{force,un}})$",$m$,0.030±0.020,0.157±0.071,0.093±0.046
+,$\mu$,0.075±0.057,0.142±0.080,0.108±0.069
+"PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)",$m$,0.031±0.020,0.154±0.070,0.092±0.045
+,$\mu$,0.074±0.057,0.150±0.082,0.112±0.069

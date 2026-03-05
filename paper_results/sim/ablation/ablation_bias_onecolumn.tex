@@ -3,21 +3,25 @@
     \caption{Ablation Study: Performance (Raw Bias $\pm$ Error STD)}
     \vspace{2mm}
     \resizebox{\columnwidth}{!}{
-    \begin{tabular}{l c c c}
+    \begin{tabular}{l c c c c}
         \toprule
-        \textbf{Model} & \textbf{Property} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} \\
+        \textbf{Model} & \textbf{Property} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} & Overall \\
         \midrule
-        \multirow{2}{*}{Only $m$} & $m$ & +0.153$\pm$0.113 & \textbf{-0.060}$\pm$0.159 \\
-        \cmidrule(lr){2-3}
-         & $\mu$ & N/A & N/A \\
+        \multirow{2}{*}{Only $m$ estimation} & $m$ & -0.040$\pm$0.063 & -0.338$\pm$0.222 & -0.189$\pm$0.142 \\
+        \cmidrule(lr){2-5}
+         & $\mu$ & N/A & N/A & N/A \\
         \midrule
-        \multirow{2}{*}{Only $\mu$} & $m$ & N/A & N/A \\
-        \cmidrule(lr){2-3}
-         & $\mu$ & N/A & N/A \\
+        \multirow{2}{*}{Only $\mu$ estimation} & $m$ & N/A & N/A & N/A \\
+        \cmidrule(lr){2-5}
+         & $\mu$ & +0.039$\pm$0.034 & -0.033$\pm$0.038 & \textbf{+0.003}$\pm$0.036 \\
         \midrule
-        \multirow{2}{*}{$\mathcal{L}_{\text{acc}}$} & $m$ & \textbf{-0.008}$\pm$0.042 & -0.170$\pm$0.144 \\
-        \cmidrule(lr){2-3}
-         & $\mu$ & \textbf{-0.001}$\pm$0.032 & \textbf{-0.029}$\pm$0.039 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,un}})$} & $m$ & -0.005$\pm$0.056 & -0.335$\pm$0.199 & -0.170$\pm$0.128 \\
+        \cmidrule(lr){2-5}
+         & $\mu$ & \textbf{+0.008}$\pm$0.032 & \textbf{-0.022}$\pm$0.044 & -0.007$\pm$0.038 \\
+        \midrule
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)} & $m$ & \textbf{-0.004}$\pm$0.057 & \textbf{-0.329}$\pm$0.197 & \textbf{-0.166}$\pm$0.127 \\
+        \cmidrule(lr){2-5}
+         & $\mu$ & +0.010$\pm$0.031 & -0.028$\pm$0.045 & -0.009$\pm$0.038 \\
         \bottomrule
     \end{tabular}
     }

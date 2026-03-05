@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+    \centering
+    \caption{Physics Law Consistency ($R^2$ Scores) Across Domains}
+    \vspace{2mm}
+    \resizebox{\columnwidth}{!}{
+    \begin{tabular}{l c c c c c c}
+        \toprule
+        \textbf{Model} & \textbf{Law} & $\mathcal{D}_{test}$ & $\mathcal{D}_{OOD}^m$ & $\mathcal{D}_{OOD}^{\mu}$ & $\mathcal{D}_{OOD}^{m, \mu}$ & Overall \\
+        \midrule
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{data}}$)} & $F_{\text{net}}$ & 0.946 & -3.123 & 0.961 & -2.889 & -1.026 \\
+        \cmidrule(lr){2-7}
+         & $F_{\text{fric}}$ & 0.910 & 0.153 & 0.757 & -7.173 & -1.338 \\
+        \midrule
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10)} & $F_{\text{net}}$ & \textbf{0.974} & \textbf{-2.966} & \textbf{0.962} & \textbf{-2.683} & \textbf{-0.928} \\
+        \cmidrule(lr){2-7}
+         & $F_{\text{fric}}$ & \textbf{0.977} & \textbf{0.579} & \textbf{0.933} & \textbf{-4.118} & \textbf{-0.407} \\
+        \bottomrule
+    \end{tabular}
+    }
+\end{table}

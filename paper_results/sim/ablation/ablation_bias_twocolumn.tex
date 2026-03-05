@@ -3,15 +3,16 @@
     \caption{Ablation Study: Performance (Raw Bias $\pm$ Error STD)}
     \vspace{2mm}
     \resizebox{0.8\textwidth}{!}{
-    \begin{tabular}{l c c c c}
+    \begin{tabular}{l c c c c c c}
         \toprule
-        \multirow{2}{*}{\textbf{Model}} & \multicolumn{2}{c}{\textbf{$m$}} & \multicolumn{2}{c}{\textbf{$\mu$}} \\
-        \cmidrule(lr){2-3} \cmidrule(lr){4-5}
-        & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} \\
+        \multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c}{\textbf{$m$}} & \multicolumn{3}{c}{\textbf{$\mu$}} \\
+        \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+        & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} & Overall & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} & Overall \\
         \midrule
-        Only $m$ & +0.153 $\pm$ 0.113 & \textbf{-0.060} $\pm$ 0.159 & N/A & N/A \\
-        Only $\mu$ & N/A & N/A & N/A & N/A \\
-        $\mathcal{L}_{\text{acc}}$ & \textbf{-0.008} $\pm$ 0.042 & -0.170 $\pm$ 0.144 & \textbf{-0.001} $\pm$ 0.032 & \textbf{-0.029} $\pm$ 0.039 \\
+        Only $m$ estimation & -0.040 $\pm$ 0.063 & -0.338 $\pm$ 0.222 & -0.189 $\pm$ 0.142 & N/A & N/A & N/A \\
+        Only $\mu$ estimation & N/A & N/A & N/A & +0.039 $\pm$ 0.034 & -0.033 $\pm$ 0.038 & \textbf{+0.003} $\pm$ 0.036 \\
+        PhyPush ($\mathcal{L}_{\text{force,un}})$ & -0.005 $\pm$ 0.056 & -0.335 $\pm$ 0.199 & -0.170 $\pm$ 0.128 & \textbf{+0.008} $\pm$ 0.032 & \textbf{-0.022} $\pm$ 0.044 & -0.007 $\pm$ 0.038 \\
+        PhyPush ($\mathcal{L}_{\text{force,acc un}}$ M10) & \textbf{-0.004} $\pm$ 0.057 & \textbf{-0.329} $\pm$ 0.197 & \textbf{-0.166} $\pm$ 0.127 & +0.010 $\pm$ 0.031 & -0.028 $\pm$ 0.045 & -0.009 $\pm$ 0.038 \\
         \bottomrule
     \end{tabular}
     }
