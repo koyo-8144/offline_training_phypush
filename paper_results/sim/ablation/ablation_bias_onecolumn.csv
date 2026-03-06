@@ -1,7 +1,7 @@
 Model,Property,$\mathcal{D}_{test}$,"{\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$}",Overall
-Only $m$ estimation,$m$,-0.040±0.063,-0.338±0.222,-0.189±0.142
+Only $m$ estimation,$m$,-0.029±0.057,-0.341±0.200,-0.185±0.128
 ,$\mu$,N/A,N/A,N/A
 Only $\mu$ estimation,$m$,N/A,N/A,N/A
-,$\mu$,+0.039±0.034,-0.033±0.038,+0.003±0.036
-"PhyPush ($\mathcal{L}_{\text{force,un}})$",$m$,-0.005±0.056,-0.335±0.199,-0.170±0.128
-,$\mu$,+0.008±0.032,-0.022±0.044,-0.007±0.038
+,$\mu$,+0.034±0.036,-0.027±0.035,+0.003±0.036
+PhyPush ($\mathcal{L}_{\text{force}})$,$m$,-0.004±0.045,-0.313±0.200,-0.158±0.123
+,$\mu$,+0.001±0.023,-0.021±0.048,-0.010±0.035

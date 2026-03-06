@@ -7,17 +7,17 @@
         \toprule
         \textbf{Model} & \textbf{Property} & $\mathcal{D}_{test}$ & {\scriptsize $\mathcal{D}_{OOD}^m$ $\cup$ $\mathcal{D}_{OOD}^{\mu}$ $\cup$ $\mathcal{D}_{OOD}^{m, \mu}$} & Overall \\
         \midrule
-        \multirow{2}{*}{Only $m$ estimation} & $m$ & 0.032$\pm$0.022 & 0.163$\pm$0.079 & 0.097$\pm$0.051 \\
+        \multirow{2}{*}{Only $m$ estimation} & $m$ & 0.031$\pm$0.020 & 0.152$\pm$0.071 & 0.092$\pm$0.046 \\
         \cmidrule(lr){2-5}
          & $\mu$ & N/A & N/A & N/A \\
         \midrule
         \multirow{2}{*}{Only $\mu$ estimation} & $m$ & N/A & N/A & N/A \\
         \cmidrule(lr){2-5}
-         & $\mu$ & 0.111$\pm$0.062 & 0.150$\pm$0.070 & 0.130$\pm$0.066 \\
+         & $\mu$ & 0.106$\pm$0.065 & \textbf{0.130}$\pm$0.064 & 0.118$\pm$0.065 \\
         \midrule
-        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force,un}})$} & $m$ & \textbf{0.030}$\pm$0.020 & \textbf{0.157}$\pm$0.071 & \textbf{0.093}$\pm$0.046 \\
+        \multirow{2}{*}{PhyPush ($\mathcal{L}_{\text{force}})$} & $m$ & \textbf{0.024}$\pm$0.016 & \textbf{0.146}$\pm$0.072 & \textbf{0.085}$\pm$0.044 \\
         \cmidrule(lr){2-5}
-         & $\mu$ & \textbf{0.075}$\pm$0.057 & \textbf{0.142}$\pm$0.080 & \textbf{0.108}$\pm$0.069 \\
+         & $\mu$ & \textbf{0.054}$\pm$0.042 & 0.153$\pm$0.086 & \textbf{0.104}$\pm$0.064 \\
         \bottomrule
     \end{tabular}
     }
